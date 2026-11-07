@@ -1,0 +1,38 @@
+{
+  "name": "crisislogistics",
+  "version": "1.0.0",
+  "description": "نظام إدارة الطوارئ والإمداد الطبي: Web App لغرفة تحكم الإسعاف بيستقبل البلاغات، يحدد خطورة كل حالة بموديل ML، يرتّبها بالأولوية، ويختار أقرب إسعاف متاحة وأنسب مستشفى بأقصر طريق.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "db:init": "node server/db/run-sql.js schema.sql",
+    "db:seed": "node server/db/seed.js",
+    "db:setup": "node server/db/run-sql.js schema.sql && node server/db/seed.js",
+    "test": "node --test \"server/tests/*.test.js\" \"server/algorithms/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haninotarek/CrisisLogistics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/haninotarek/CrisisLogistics/issues"
+  },
+  "homepage": "https://github.com/haninotarek/CrisisLogistics#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
