@@ -1,5 +1,4 @@
--- seed.sql
--- Run after schema.sql in pgAdmin Query Tool (F5)
+
 BEGIN;
 
 TRUNCATE reports, ambulances, hospitals, edges, nodes RESTART IDENTITY CASCADE;
@@ -183,7 +182,7 @@ INSERT INTO edges (from_node, to_node, distance_km) VALUES
 INSERT INTO edges (from_node, to_node, distance_km)
 SELECT to_node, from_node, distance_km FROM edges;
 
--- 3) hospitals (38): lat/lng come from nodes; available_beds = half capacity, 0 for the busy one
+-- 3) hospitals (38)
 INSERT INTO hospitals (node_id, name, latitude, longitude, total_beds, available_beds)
 SELECT v.node_id, v.name, n.latitude, n.longitude, v.total_beds, v.available_beds
 FROM (VALUES
@@ -228,7 +227,7 @@ FROM (VALUES
 ) AS v(node_id, name, total_beds, available_beds)
 JOIN nodes n ON n.node_id = v.node_id;
 
--- 4) ambulances (61): statuses from the map file (A_D13 is busy with INC-001)
+-- 4) ambulances (61)
 INSERT INTO ambulances (node_id, name, latitude, longitude, status)
 SELECT v.node_id, v.name, n.latitude, n.longitude, v.status
 FROM (VALUES
@@ -296,7 +295,7 @@ FROM (VALUES
 ) AS v(node_id, name, status)
 JOIN nodes n ON n.node_id = v.node_id;
 
--- 5) reports (10): INC-001 has 3 patients, the rest are single reports
+-- 5) reports (10)
 INSERT INTO reports
 (incident_code, latitude, longitude, node_id, patient_name, age, injury_type,
  conscious, bleeding, breathing_issue, pain_level, severity,
