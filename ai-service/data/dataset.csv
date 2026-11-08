@@ -1,0 +1,501 @@
+injury_type,bleeding,consciousness,casualties,priority_level
+Burn,1,0,1,Critical
+Heart Attack,0,0,4,Critical
+Fracture,0,1,1,Medium
+Fracture,1,1,3,Critical
+Accident,0,1,1,Low
+Bleeding,1,0,3,Critical
+Fracture,1,0,4,Critical
+Accident,1,1,4,Critical
+Accident,1,0,1,Critical
+Fracture,1,0,4,Critical
+Burn,0,1,4,Critical
+Fracture,1,1,2,Low
+Accident,0,1,3,Critical
+Bleeding,1,0,1,Critical
+Accident,0,1,3,Critical
+Heart Attack,1,0,4,Critical
+Fracture,1,1,2,Low
+Bleeding,1,0,1,Critical
+Fracture,1,0,1,Critical
+Heart Attack,0,0,2,Critical
+Bleeding,0,0,3,Critical
+Burn,1,1,4,Critical
+Accident,1,0,1,Critical
+Fracture,0,0,3,Critical
+Burn,1,1,1,Low
+Burn,0,1,3,Critical
+Heart Attack,0,0,3,Critical
+Burn,1,1,3,Critical
+Heart Attack,0,0,2,Critical
+Bleeding,1,1,4,Critical
+Fracture,1,1,2,Low
+Heart Attack,1,1,3,Critical
+Heart Attack,1,1,1,Critical
+Heart Attack,0,0,4,Critical
+Heart Attack,0,0,4,Critical
+Bleeding,0,0,4,Critical
+Heart Attack,0,0,4,Critical
+Accident,0,0,4,Critical
+Bleeding,0,1,2,Low
+Bleeding,1,1,3,Critical
+Bleeding,0,1,2,Low
+Burn,0,1,4,Critical
+Accident,1,1,2,Low
+Bleeding,0,0,2,Low
+Bleeding,1,0,3,Critical
+Accident,0,1,4,Critical
+Fracture,1,0,2,Critical
+Bleeding,1,0,4,Critical
+Heart Attack,0,1,2,Critical
+Heart Attack,0,0,3,Critical
+Fracture,1,1,4,Critical
+Accident,0,1,3,Critical
+Fracture,1,1,4,Critical
+Heart Attack,0,0,2,Critical
+Fracture,0,1,2,Medium
+Heart Attack,1,0,1,Critical
+Bleeding,0,1,2,Low
+Burn,0,1,2,Medium
+Heart Attack,1,1,1,Critical
+Burn,0,1,3,Critical
+Bleeding,0,0,2,Low
+Heart Attack,1,1,4,Critical
+Fracture,1,1,3,Critical
+Heart Attack,1,1,2,Critical
+Accident,0,0,2,Low
+Heart Attack,1,0,2,Critical
+Fracture,1,0,3,Critical
+Bleeding,1,0,4,Critical
+Fracture,0,0,4,Critical
+Fracture,1,1,2,Low
+Bleeding,0,0,4,Critical
+Fracture,1,1,2,Low
+Bleeding,1,1,3,Critical
+Fracture,0,1,1,Medium
+Burn,1,1,3,Critical
+Heart Attack,1,1,1,Critical
+Accident,1,0,3,Critical
+Bleeding,1,1,1,Low
+Accident,0,1,2,Low
+Bleeding,0,0,2,Low
+Accident,1,0,1,Critical
+Fracture,1,0,4,Critical
+Heart Attack,1,1,1,Critical
+Fracture,1,0,3,Critical
+Heart Attack,1,0,2,Critical
+Burn,1,0,3,Critical
+Accident,1,0,2,Critical
+Accident,0,1,3,Critical
+Bleeding,0,0,4,Critical
+Heart Attack,1,1,3,Critical
+Heart Attack,0,0,2,Critical
+Accident,1,0,3,Critical
+Fracture,1,1,3,Critical
+Accident,0,0,3,Critical
+Burn,1,0,1,Critical
+Heart Attack,0,0,1,Critical
+Accident,0,0,3,Critical
+Fracture,0,0,4,Critical
+Burn,1,0,1,Critical
+Bleeding,0,1,4,Critical
+Bleeding,0,0,2,Low
+Accident,0,0,2,Low
+Accident,1,0,4,Critical
+Burn,1,0,3,Critical
+Fracture,0,1,3,Critical
+Accident,0,0,2,Low
+Accident,0,0,2,Low
+Burn,0,1,2,Medium
+Bleeding,0,0,4,Critical
+Bleeding,0,0,1,Low
+Bleeding,0,0,4,Critical
+Bleeding,0,1,2,Low
+Fracture,0,1,4,Critical
+Accident,0,1,1,Low
+Heart Attack,1,1,3,Critical
+Heart Attack,0,0,3,Critical
+Accident,0,1,2,Low
+Bleeding,1,0,3,Critical
+Accident,0,0,2,Low
+Accident,1,1,1,Low
+Fracture,0,0,1,Medium
+Bleeding,0,0,2,Low
+Heart Attack,0,0,2,Critical
+Bleeding,0,0,2,Low
+Burn,1,0,3,Critical
+Accident,1,0,2,Critical
+Burn,1,0,4,Critical
+Heart Attack,1,0,4,Critical
+Accident,0,0,3,Critical
+Burn,0,0,3,Critical
+Heart Attack,0,0,2,Critical
+Accident,0,1,3,Critical
+Bleeding,1,1,1,Low
+Bleeding,1,1,2,Low
+Heart Attack,1,1,2,Critical
+Burn,1,1,3,Critical
+Accident,1,1,1,Low
+Bleeding,0,1,3,Critical
+Fracture,1,0,2,Critical
+Bleeding,0,0,4,Critical
+Accident,1,0,3,Critical
+Bleeding,1,0,4,Critical
+Burn,0,0,2,Medium
+Heart Attack,1,1,2,Critical
+Heart Attack,1,0,3,Critical
+Burn,0,0,2,Medium
+Burn,0,0,1,Medium
+Bleeding,1,1,4,Critical
+Bleeding,0,0,2,Low
+Bleeding,0,1,3,Critical
+Heart Attack,0,0,3,Critical
+Fracture,1,0,3,Critical
+Bleeding,0,0,3,Critical
+Fracture,0,0,2,Medium
+Heart Attack,1,0,3,Critical
+Bleeding,1,0,2,Critical
+Accident,1,0,1,Critical
+Accident,1,1,3,Critical
+Fracture,0,0,2,Medium
+Burn,0,1,4,Critical
+Burn,0,1,2,Medium
+Accident,0,1,2,Low
+Accident,0,0,4,Critical
+Bleeding,1,0,3,Critical
+Heart Attack,1,0,3,Critical
+Heart Attack,1,0,1,Critical
+Heart Attack,0,1,1,Critical
+Accident,1,0,2,Critical
+Accident,0,0,4,Critical
+Heart Attack,1,1,2,Critical
+Fracture,1,0,2,Critical
+Burn,0,0,2,Medium
+Accident,0,0,4,Critical
+Heart Attack,0,1,1,Critical
+Burn,0,0,2,Medium
+Bleeding,0,0,1,Low
+Burn,0,1,2,Medium
+Fracture,1,1,2,Low
+Heart Attack,0,0,1,Critical
+Accident,0,0,1,Low
+Heart Attack,1,1,4,Critical
+Heart Attack,0,0,1,Critical
+Accident,0,1,2,Low
+Heart Attack,1,1,3,Critical
+Accident,0,1,4,Critical
+Accident,1,1,2,Low
+Heart Attack,1,1,3,Critical
+Accident,1,1,4,Critical
+Bleeding,1,1,4,Critical
+Heart Attack,0,0,4,Critical
+Heart Attack,1,1,3,Critical
+Heart Attack,1,1,4,Critical
+Fracture,0,0,4,Critical
+Heart Attack,0,0,1,Critical
+Fracture,0,0,1,Medium
+Accident,0,1,3,Critical
+Accident,1,1,4,Critical
+Accident,0,0,2,Low
+Accident,1,1,2,Low
+Accident,1,0,2,Critical
+Heart Attack,0,1,1,Critical
+Heart Attack,1,1,2,Critical
+Fracture,0,0,2,Medium
+Burn,1,0,4,Critical
+Burn,0,1,2,Medium
+Burn,0,0,4,Critical
+Bleeding,1,0,2,Critical
+Accident,0,0,4,Critical
+Bleeding,0,0,4,Critical
+Fracture,0,0,1,Medium
+Burn,0,1,2,Medium
+Fracture,1,0,2,Critical
+Heart Attack,0,0,3,Critical
+Heart Attack,0,0,4,Critical
+Heart Attack,0,0,4,Critical
+Burn,1,0,4,Critical
+Fracture,1,1,1,Low
+Fracture,0,0,4,Critical
+Fracture,0,1,2,Medium
+Burn,0,1,3,Critical
+Bleeding,0,0,4,Critical
+Heart Attack,1,0,4,Critical
+Burn,0,0,2,Medium
+Bleeding,0,1,3,Critical
+Fracture,0,0,3,Critical
+Bleeding,1,0,3,Critical
+Accident,1,0,1,Critical
+Bleeding,0,0,1,Low
+Heart Attack,1,1,1,Critical
+Bleeding,1,1,3,Critical
+Bleeding,0,0,4,Critical
+Burn,1,0,4,Critical
+Heart Attack,1,1,3,Critical
+Fracture,1,0,3,Critical
+Heart Attack,1,0,3,Critical
+Heart Attack,1,0,2,Critical
+Bleeding,0,0,1,Low
+Bleeding,1,0,2,Critical
+Burn,0,1,4,Critical
+Bleeding,1,1,2,Low
+Burn,0,1,4,Critical
+Burn,1,1,1,Low
+Accident,1,0,1,Critical
+Accident,1,1,3,Critical
+Heart Attack,1,0,3,Critical
+Burn,1,1,1,Low
+Fracture,0,1,4,Critical
+Accident,1,0,3,Critical
+Accident,0,0,2,Low
+Burn,0,1,4,Critical
+Bleeding,0,0,1,Low
+Fracture,1,0,4,Critical
+Accident,1,1,4,Critical
+Accident,1,0,3,Critical
+Heart Attack,0,0,2,Critical
+Bleeding,1,0,1,Critical
+Bleeding,1,1,3,Critical
+Fracture,0,0,3,Critical
+Accident,1,0,4,Critical
+Fracture,1,1,1,Low
+Accident,1,0,4,Critical
+Bleeding,1,0,4,Critical
+Bleeding,0,0,4,Critical
+Accident,1,0,2,Critical
+Bleeding,1,0,1,Critical
+Heart Attack,0,1,1,Critical
+Heart Attack,0,1,3,Critical
+Burn,1,1,2,Low
+Fracture,0,1,3,Critical
+Bleeding,0,1,4,Critical
+Bleeding,0,0,3,Critical
+Accident,1,1,3,Critical
+Heart Attack,1,0,3,Critical
+Fracture,1,1,1,Low
+Heart Attack,1,0,2,Critical
+Fracture,0,0,1,Medium
+Fracture,1,0,3,Critical
+Fracture,0,1,4,Critical
+Heart Attack,1,0,3,Critical
+Burn,1,0,1,Critical
+Fracture,0,1,1,Medium
+Burn,0,1,2,Medium
+Bleeding,0,1,3,Critical
+Heart Attack,1,0,2,Critical
+Bleeding,1,1,1,Low
+Accident,0,1,4,Critical
+Heart Attack,0,1,4,Critical
+Heart Attack,0,1,4,Critical
+Fracture,1,1,4,Critical
+Bleeding,0,0,3,Critical
+Fracture,0,0,2,Medium
+Burn,1,0,1,Critical
+Bleeding,1,0,1,Critical
+Bleeding,0,0,3,Critical
+Accident,1,1,3,Critical
+Accident,1,0,1,Critical
+Fracture,0,0,2,Medium
+Fracture,0,1,1,Medium
+Accident,0,1,4,Critical
+Bleeding,0,1,2,Low
+Fracture,0,1,3,Critical
+Accident,1,0,3,Critical
+Burn,0,0,2,Medium
+Fracture,1,0,3,Critical
+Fracture,1,0,3,Critical
+Accident,0,0,1,Low
+Fracture,1,0,3,Critical
+Burn,0,0,3,Critical
+Burn,0,0,2,Medium
+Bleeding,0,1,3,Critical
+Burn,0,0,3,Critical
+Bleeding,1,1,4,Critical
+Accident,1,1,4,Critical
+Heart Attack,1,0,3,Critical
+Burn,1,1,1,Low
+Fracture,0,1,3,Critical
+Accident,0,0,2,Low
+Heart Attack,1,1,2,Critical
+Burn,1,0,4,Critical
+Burn,0,0,3,Critical
+Burn,1,0,3,Critical
+Bleeding,0,0,4,Critical
+Burn,0,1,3,Critical
+Fracture,0,0,2,Medium
+Fracture,1,0,1,Critical
+Burn,1,1,3,Critical
+Accident,0,0,3,Critical
+Fracture,0,0,4,Critical
+Heart Attack,0,0,2,Critical
+Heart Attack,1,0,3,Critical
+Accident,0,1,1,Low
+Heart Attack,1,1,1,Critical
+Bleeding,1,0,1,Critical
+Burn,1,1,4,Critical
+Bleeding,0,0,3,Critical
+Accident,1,1,3,Critical
+Bleeding,0,1,3,Critical
+Fracture,1,0,2,Critical
+Accident,1,0,2,Critical
+Heart Attack,1,0,4,Critical
+Accident,0,0,3,Critical
+Burn,1,0,4,Critical
+Accident,0,1,3,Critical
+Burn,0,1,3,Critical
+Fracture,1,0,2,Critical
+Bleeding,0,0,1,Low
+Fracture,1,1,4,Critical
+Accident,0,1,4,Critical
+Accident,0,1,4,Critical
+Accident,0,0,1,Low
+Heart Attack,1,0,4,Critical
+Bleeding,1,0,2,Critical
+Heart Attack,0,0,1,Critical
+Heart Attack,1,1,1,Critical
+Fracture,1,1,1,Low
+Fracture,1,0,4,Critical
+Accident,0,1,3,Critical
+Burn,1,0,3,Critical
+Heart Attack,1,1,4,Critical
+Accident,0,0,1,Low
+Bleeding,0,0,3,Critical
+Burn,1,0,4,Critical
+Burn,0,1,4,Critical
+Bleeding,1,0,3,Critical
+Bleeding,0,1,1,Low
+Burn,1,1,2,Low
+Bleeding,1,1,2,Low
+Bleeding,0,0,4,Critical
+Accident,0,0,1,Low
+Heart Attack,0,0,4,Critical
+Burn,1,0,3,Critical
+Burn,0,1,4,Critical
+Heart Attack,1,0,3,Critical
+Fracture,1,1,1,Low
+Fracture,0,1,3,Critical
+Heart Attack,1,0,1,Critical
+Heart Attack,1,1,2,Critical
+Heart Attack,1,1,4,Critical
+Burn,1,1,3,Critical
+Burn,1,1,2,Low
+Heart Attack,1,0,4,Critical
+Bleeding,1,1,3,Critical
+Burn,0,0,1,Medium
+Heart Attack,0,1,1,Critical
+Fracture,0,0,4,Critical
+Accident,1,0,3,Critical
+Heart Attack,1,1,4,Critical
+Heart Attack,0,1,3,Critical
+Burn,0,1,1,Medium
+Bleeding,1,1,4,Critical
+Accident,0,0,3,Critical
+Heart Attack,1,1,3,Critical
+Fracture,1,1,3,Critical
+Burn,1,0,3,Critical
+Burn,0,0,2,Medium
+Heart Attack,1,1,4,Critical
+Heart Attack,1,0,2,Critical
+Fracture,1,1,1,Low
+Bleeding,1,1,3,Critical
+Heart Attack,0,0,2,Critical
+Bleeding,0,0,1,Low
+Heart Attack,1,1,2,Critical
+Accident,1,1,1,Low
+Bleeding,1,1,4,Critical
+Fracture,1,0,3,Critical
+Fracture,1,0,4,Critical
+Burn,1,0,3,Critical
+Heart Attack,1,1,3,Critical
+Burn,0,0,4,Critical
+Accident,0,1,4,Critical
+Accident,1,0,1,Critical
+Fracture,0,1,4,Critical
+Accident,0,1,3,Critical
+Fracture,0,0,1,Medium
+Accident,0,0,2,Low
+Fracture,0,1,3,Critical
+Accident,1,1,1,Low
+Heart Attack,0,0,1,Critical
+Heart Attack,1,1,1,Critical
+Fracture,1,0,1,Critical
+Burn,0,0,4,Critical
+Bleeding,1,1,3,Critical
+Heart Attack,0,1,3,Critical
+Heart Attack,0,0,2,Critical
+Heart Attack,0,0,1,Critical
+Accident,1,0,3,Critical
+Fracture,1,1,4,Critical
+Fracture,0,1,3,Critical
+Fracture,1,1,4,Critical
+Heart Attack,0,1,2,Critical
+Fracture,0,1,1,Medium
+Heart Attack,0,1,2,Critical
+Bleeding,1,0,3,Critical
+Heart Attack,0,1,1,Critical
+Bleeding,0,1,3,Critical
+Heart Attack,1,1,1,Critical
+Fracture,1,1,2,Low
+Accident,1,0,1,Critical
+Heart Attack,1,1,2,Critical
+Fracture,1,1,4,Critical
+Burn,0,1,2,Medium
+Burn,1,0,3,Critical
+Fracture,0,0,2,Medium
+Burn,1,1,3,Critical
+Accident,0,1,2,Low
+Fracture,1,1,1,Low
+Burn,1,1,3,Critical
+Burn,1,1,2,Low
+Fracture,0,1,4,Critical
+Heart Attack,0,1,4,Critical
+Heart Attack,0,0,2,Critical
+Fracture,0,1,4,Critical
+Heart Attack,1,0,2,Critical
+Accident,0,0,3,Critical
+Bleeding,1,1,2,Low
+Accident,1,0,4,Critical
+Heart Attack,0,1,4,Critical
+Bleeding,1,0,3,Critical
+Heart Attack,0,1,1,Critical
+Accident,0,0,3,Critical
+Accident,1,0,3,Critical
+Fracture,1,0,4,Critical
+Bleeding,0,0,1,Low
+Heart Attack,1,1,1,Critical
+Burn,1,0,1,Critical
+Accident,0,1,3,Critical
+Fracture,0,1,1,Medium
+Bleeding,1,0,2,Critical
+Accident,0,1,3,Critical
+Heart Attack,1,1,3,Critical
+Fracture,0,1,4,Critical
+Bleeding,0,1,2,Low
+Heart Attack,0,0,4,Critical
+Accident,1,1,1,Low
+Heart Attack,1,1,2,Critical
+Bleeding,1,1,3,Critical
+Burn,1,0,1,Critical
+Fracture,1,0,1,Critical
+Heart Attack,0,0,2,Critical
+Burn,1,0,2,Critical
+Heart Attack,1,0,2,Critical
+Heart Attack,0,0,2,Critical
+Bleeding,0,0,3,Critical
+Heart Attack,1,0,3,Critical
+Heart Attack,1,1,3,Critical
+Accident,1,0,4,Critical
+Bleeding,0,1,2,Low
+Bleeding,0,0,3,Critical
+Accident,0,0,1,Low
+Accident,0,1,4,Critical
+Burn,0,1,2,Medium
+Burn,0,1,1,Medium
+Burn,0,0,4,Critical
+Accident,1,1,1,Low
+Bleeding,1,1,4,Critical
+Accident,0,0,1,Low
+Heart Attack,0,0,3,Critical
+Fracture,0,0,3,Critical
+Accident,1,0,3,Critical
+Fracture,1,0,4,Critical
