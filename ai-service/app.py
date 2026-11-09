@@ -14,6 +14,14 @@ else:
     model = None
     encoders = None
 
+# قواعد الحماية الاحتياطية (نفس قواعد generate_data.py)
+def fallback_severity(injury_type, bleeding, conscious, breathing_issue, pain_level):
+    if injury_type in ["ألم في الصدر", "اختناق أو صعوبة تنفس"] or not conscious or breathing_issue or bleeding == "severe":
+        return "Critical"
+    elif injury_type in ["حادث سيارة", "سقوط من ارتفاع", "حروق", "كسر في الذراع أو الساق", "إغماء"] or bleeding == "moderate" or pain_level >= 7:
+        return "Medium"
+    return "Low"
+
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
@@ -25,16 +33,18 @@ def predict():
         bleeding = data.get("bleeding", "none")
         conscious = bool(data.get("conscious", True))
         breathing_issue = bool(data.get("breathing_issue", False))
-        pain_level = data.get("pain_level", 5)
+        
+        # درجة الألم ممكن تيجي فاضية (null) من السيرفر
+        pain_level = data.get("pain_level")
+        if pain_level is None:
+            pain_level = 5
+        pain_level = int(pain_level)
         
         # نظام الحماية الاحتياطي (Fallback) لو الموديل مش جاهز أو الكلمة جديدة
-        if not model or not encoders or injury_type not in encoders["injury_type"].classes_:
-            if injury_type in ["ألم في الصدر", "اختناق أو صعوبة تنفس"] or not conscious or breathing_issue or bleeding == "severe":
-                severity = "Critical"
-            elif pain_level >= 7 or bleeding == "moderate":
-                severity = "Medium"
-            else:
-                severity = "Low"
+        if (not model or not encoders
+                or injury_type not in encoders["injury_type"].classes_
+                or bleeding not in encoders["bleeding"].classes_):
+            severity = fallback_severity(injury_type, bleeding, conscious, breathing_issue, pain_level)
             return jsonify({"status": "success", "severity": severity, "source": "fallback_rules"})
 
         injury_encoded = encoders["injury_type"].transform([injury_type])[0]
@@ -45,7 +55,7 @@ def predict():
             bleeding_encoded,
             int(conscious),
             int(breathing_issue),
-            int(pain_level)
+            pain_level
         ]], columns=["injury_type", "bleeding", "conscious", "breathing_issue", "pain_level"])
         
         prediction = model.predict(features)[0]
@@ -56,7 +66,8 @@ def predict():
             "source": "ai_model"
         })
     except Exception as e:
-        return jsonify({"status": "success", "severity": "Medium", "source": "error_fallback", "error": str(e)})
+        # لو حصل خطأ نرجّع error عشان السيرفر يستخدم القواعد الطبية بتاعته بدل ما نخمّن Medium
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
