@@ -2,33 +2,27 @@ import pandas as pd
 import random
 import os
 
-# إنشاء مجلد data لو مش موجود
 os.makedirs('data', exist_ok=True)
 
-# إنشاء داتا تجريبية لفرز حالات الطوارئ
+injury_types = ['حادث سيارة', 'حريق', 'أزمة قلبية', 'نزيف', 'كسور', 'غير ذلك']
+
 data = []
-injury_types = ['Accident', 'Heart Attack', 'Bleeding', 'Burn', 'Fracture']
-
-for _ in range(500):
+for _ in range(1000):
     injury = random.choice(injury_types)
-    bleeding = random.choice([0, 1])  # 0: لا يوجد، 1: يوجد
-    consciousness = random.choice([0, 1])  # 0: فاقد الوعي، 1: واعي
-    casualties = random.randint(1, 4)
+    bleeding = random.choice(['none', 'moderate', 'severe'])
+    conscious = random.choice([True, False])
+    injured_count = random.randint(1, 5)
     
-    # منطق بسيط لتحديد درجة الخطورة
-    if bleeding == 1 and consciousness == 0:
-        priority = 'Critical'
-    elif injury == 'Heart Attack' or casualties > 2:
-        priority = 'Critical'
-    elif injury in ['Burn', 'Fracture'] and bleeding == 0:
-        priority = 'Medium'
+    if bleeding == 'severe' or not conscious or injury == 'أزمة قلبية' or injured_count >= 3:
+        severity = 'Critical'
+    elif bleeding == 'moderate' or injury in ['حريق', 'كسور']:
+        severity = 'Medium'
     else:
-        priority = 'Low'
+        severity = 'Low'
         
-    data.append([injury, bleeding, consciousness, casualties, priority])
+    data.append([injury, bleeding, conscious, injured_count, severity])
 
-# حفظ الداتا في ملف CSV داخل مجلد data
-df = pd.DataFrame(data, columns=['injury_type', 'bleeding', 'consciousness', 'casualties', 'priority_level'])
+df = pd.DataFrame(data, columns=['injury_type', 'bleeding', 'conscious', 'injured_count', 'severity'])
 df.to_csv('data/dataset.csv', index=False)
 
 print("Dataset generated successfully inside data folder!")

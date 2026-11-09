@@ -5,10 +5,12 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# تحميل الموديل المحفوظ مسبقاً
 model_path = 'data/model.joblib'
 if os.path.exists(model_path):
-    model = joblib.load(model_path)
+    saved_objects = joblib.load(model_path)
+    model = saved_objects['model']
+    le_injury = saved_objects['le_injury']
+    le_bleeding = saved_objects['le_bleeding']
 else:
     model = None
 
@@ -20,22 +22,31 @@ def predict():
     data = request.get_json()
     
     try:
-        # استقبال البيانات المتوقعة من البلاغ
-        injury_type = data.get('injury_type', 0)
-        bleeding = data.get('bleeding', 0)
-        consciousness = data.get('consciousness', 0)
-        casualties = data.get('casualties', 1)
+        raw_injury = data.get('injury_type', 'غير ذلك')
+        raw_bleeding = data.get('bleeding', 'none')
+        conscious = data.get('conscious', True)
+        injured_count = data.get('injured_count', 1)
         
-        # تجهيز البيانات لتكون ملائمة للموديل
-        input_data = pd.DataFrame([[injury_type, bleeding, consciousness, casualties]], 
-                                  columns=['injury_type', 'bleeding', 'consciousness', 'casualties'])
+        if raw_injury in le_injury.classes_:
+            injury_encoded = le_injury.transform([raw_injury])[0]
+        else:
+            injury_encoded = le_injury.transform(['غير ذلك'])[0]
+            
+        if raw_bleeding in le_bleeding.classes_:
+            bleeding_encoded = le_bleeding.transform([raw_bleeding])[0]
+        else:
+            bleeding_encoded = le_bleeding.transform(['none'])[0]
+            
+        conscious_encoded = 1 if conscious else 0
         
-        # التنبؤ بدرجة الخطورة
+        input_data = pd.DataFrame([[injury_encoded, bleeding_encoded, conscious_encoded, injured_count]], 
+                                  columns=['injury_type_encoded', 'bleeding_encoded', 'conscious_encoded', 'injured_count'])
+        
         prediction = model.predict(input_data)[0]
         
         return jsonify({
             'status': 'success',
-            'priority_level': prediction
+            'severity': prediction
         })
         
     except Exception as e:
