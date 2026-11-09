@@ -5,52 +5,52 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model_path = 'data/model.joblib'
+# تحميل الموديل والـ Encoders المحفوظة
+model_path = "model/model.joblib"
 if os.path.exists(model_path):
-    saved_objects = joblib.load(model_path)
-    model = saved_objects['model']
-    le_injury = saved_objects['le_injury']
-    le_bleeding = saved_objects['le_bleeding']
+    saved_bundle = joblib.load(model_path)
+    model = saved_bundle["model"]
+    encoders = saved_bundle["encoders"]
 else:
     model = None
+    encoders = None
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    if model is None:
-        return jsonify({'error': 'Model not trained yet!'}), 500
-    
+    if not model or not encoders:
+        return jsonify({"error": "Model not trained or missing"}), 500
+        
     data = request.get_json()
-    
+    if not data:
+        return jsonify({"error": "No input data provided"}), 400
+        
     try:
-        raw_injury = data.get('injury_type', 'غير ذلك')
-        raw_bleeding = data.get('bleeding', 'none')
-        conscious = data.get('conscious', True)
-        injured_count = data.get('injured_count', 1)
+        injury_type = data.get("injury_type", "حادث سيارة")
+        bleeding = data.get("bleeding", "none")
+        conscious = int(bool(data.get("conscious", True)))
+        breathing_issue = int(bool(data.get("breathing_issue", False)))
+        pain_level = int(data.get("pain_level", 5))
         
-        if raw_injury in le_injury.classes_:
-            injury_encoded = le_injury.transform([raw_injury])[0]
-        else:
-            injury_encoded = le_injury.transform(['غير ذلك'])[0]
-            
-        if raw_bleeding in le_bleeding.classes_:
-            bleeding_encoded = le_bleeding.transform([raw_bleeding])[0]
-        else:
-            bleeding_encoded = le_bleeding.transform(['none'])[0]
-            
-        conscious_encoded = 1 if conscious else 0
+        # تحويل النصوص للأرقام باستخدام الـ encoders المحفوظة
+        injury_encoded = encoders["injury_type"].transform([injury_type])[0]
+        bleeding_encoded = encoders["bleeding"].transform([bleeding])[0]
         
-        input_data = pd.DataFrame([[injury_encoded, bleeding_encoded, conscious_encoded, injured_count]], 
-                                  columns=['injury_type_encoded', 'bleeding_encoded', 'conscious_encoded', 'injured_count'])
+        features = pd.DataFrame([[
+            injury_encoded,
+            bleeding_encoded,
+            conscious,
+            breathing_issue,
+            pain_level
+        ]], columns=["injury_type", "bleeding", "conscious", "breathing_issue", "pain_level"])
         
-        prediction = model.predict(input_data)[0]
+        prediction = model.predict(features)[0]
         
         return jsonify({
-            'status': 'success',
-            'severity': prediction
+            "status": "success",
+            "severity": prediction
         })
-        
     except Exception as e:
-        return jsonify({'error': str(e)}), 400
+        return jsonify({"error": str(e)}), 400
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

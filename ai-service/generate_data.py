@@ -1,28 +1,51 @@
-import pandas as pd
 import random
-import os
+import pandas as pd
 
-os.makedirs('data', exist_ok=True)
+INJURY_TYPES = [
+    "حادث سيارة",
+    "ألم في الصدر",
+    "سقوط من ارتفاع",
+    "حروق",
+    "جرح قطعي",
+    "كسر في الذراع أو الساق",
+    "إغماء",
+    "اختناق أو صعوبة تنفس",
+    "إصابة أخرى",
+]
 
-injury_types = ['حادث سيارة', 'حريق', 'أزمة قلبية', 'نزيف', 'كسور', 'غير ذلك']
+BLEEDING_LEVELS = ["none", "mild", "moderate", "severe"]
 
-data = []
-for _ in range(1000):
-    injury = random.choice(injury_types)
-    bleeding = random.choice(['none', 'moderate', 'severe'])
-    conscious = random.choice([True, False])
-    injured_count = random.randint(1, 5)
-    
-    if bleeding == 'severe' or not conscious or injury == 'أزمة قلبية' or injured_count >= 3:
-        severity = 'Critical'
-    elif bleeding == 'moderate' or injury in ['حريق', 'كسور']:
-        severity = 'Medium'
-    else:
-        severity = 'Low'
+def generate_dataset(num_samples=1500):
+    data = []
+    for _ in range(num_samples):
+        injury = random.choice(INJURY_TYPES)
+        bleeding = random.choice(BLEEDING_LEVELS)
+        conscious = random.choice([True, False])
+        breathing_issue = random.choice([True, False])
+        pain_level = random.randint(0, 10)
         
-    data.append([injury, bleeding, conscious, injured_count, severity])
+        # قواعد طبية منطقية لتحديد خطورة الحالة (Severity)
+        if not conscious or breathing_issue or bleeding == "severe" or injury in ["ألم في الصدر", "اختناق أو صعوبة تنفس"]:
+            severity = "Critical"
+        elif bleeding == "moderate" or pain_level >= 7 or injury in ["حادث سيارة", "سقوط من ارتفاع", "حروق", "كسر في الذراع أو الساق"]:
+            severity = "Medium"
+        else:
+            severity = "Low"
+            
+        data.append({
+            "injury_type": injury,
+            "bleeding": bleeding,
+            "conscious": conscious,
+            "breathing_issue": breathing_issue,
+            "pain_level": pain_level,
+            "severity": severity
+        })
+        
+    df = pd.DataFrame(data)
+    df.to_csv("data/triage_dataset.csv", index=False)
+    print("Dataset generated successfully with 9 injury types and new features!")
 
-df = pd.DataFrame(data, columns=['injury_type', 'bleeding', 'conscious', 'injured_count', 'severity'])
-df.to_csv('data/dataset.csv', index=False)
-
-print("Dataset generated successfully inside data folder!")
+if __name__ == "__main__":
+    import os
+    os.makedirs("data", exist_ok=True)
+    generate_dataset()

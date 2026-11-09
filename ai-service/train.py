@@ -1,40 +1,41 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score
 import joblib
 import os
 
-data_path = 'data/dataset.csv'
-if not os.path.exists(data_path):
-    print("Dataset file not found! Please run generate_data.py first.")
-else:
-    df = pd.read_csv(data_path)
+def train_model():
+    # التأكد من وجود ملف البيانات أو توليده
+    if not os.path.exists("data/triage_dataset.csv"):
+        import generate_data
+        generate_data.generate_dataset()
+        
+    df = pd.read_csv("data/triage_dataset.csv")
     
-    le_injury = LabelEncoder()
-    le_bleeding = LabelEncoder()
-    
-    df['injury_type_encoded'] = le_injury.fit_transform(df['injury_type'])
-    df['bleeding_encoded'] = le_bleeding.fit_transform(df['bleeding'])
-    df['conscious_encoded'] = df['conscious'].astype(int)
-    
-    X = df[['injury_type_encoded', 'bleeding_encoded', 'conscious_encoded', 'injured_count']]
-    y = df['severity']
+    # تحويل النصوص والـ Boolean إلى أرقام باستخدام LabelEncoders
+    encoders = {}
+    for col in ["injury_type", "bleeding"]:
+        le = LabelEncoder()
+        df[col] = le.fit_transform(df[col].astype(str))
+        encoders[col] = le
+        
+    # تحويل البوليان لـ int
+    for col in ["conscious", "breathing_issue"]:
+        df[col] = df[col].astype(int)
+        
+    X = df[["injury_type", "bleeding", "conscious", "breathing_issue", "pain_level"]]
+    y = df["severity"]
     
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
-    model = DecisionTreeClassifier(random_state=42)
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)
     
-    acc = accuracy_score(y_test, model.predict(X_test))
-    print(f"Model trained successfully! Accuracy: {acc * 100:.2f}%")
-    
-    os.makedirs('data', exist_ok=True)
-    joblib.dump({
-        'model': model,
-        'le_injury': le_injury,
-        'le_bleeding': le_bleeding
-    }, 'data/model.joblib')
-    
-    print("Model and Encoders saved successfully in data/model.joblib")
+    # حفظ الموديل والـ Encoders معاً لتفادي أي أخطاء في الـ API
+    os.makedirs("model", exist_ok=True)
+    joblib.dump({"model": model, "encoders": encoders}, "model/model.joblib")
+    print("Model trained and saved successfully with all encoders!")
+
+if __name__ == "__main__":
+    train_model()
