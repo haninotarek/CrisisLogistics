@@ -1,0 +1,3813 @@
+{
+  "nodes": [
+    {
+      "id": "H_S00",
+      "name": "مستشفى رمانة المركزي للطوارئ",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "رمانة - شمال سيناء",
+      "lat": 30.9965,
+      "lng": 32.6485,
+      "capacity": 65,
+      "status": "free"
+    },
+    {
+      "id": "H_S07",
+      "name": "مركز طوارئ رابعة الطبي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "رابعة - شمال سيناء",
+      "lat": 31.0185,
+      "lng": 32.758,
+      "capacity": 45,
+      "status": "free"
+    },
+    {
+      "id": "H_S08",
+      "name": "مستشفى القنطرة شرق المركزي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "القنطرة شرق",
+      "lat": 30.8535,
+      "lng": 32.3325,
+      "capacity": 90,
+      "status": "free"
+    },
+    {
+      "id": "H_D08",
+      "name": "مجمع الإسماعيلية الطبي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "الإسماعيلية",
+      "lat": 30.5965,
+      "lng": 32.2715,
+      "capacity": 260,
+      "status": "free"
+    },
+    {
+      "id": "H_D09",
+      "name": "مستشفى السلام بورسعيد",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "بورسعيد",
+      "lat": 31.2653,
+      "lng": 32.3019,
+      "capacity": 220,
+      "status": "free"
+    },
+    {
+      "id": "H_D10",
+      "name": "مستشفى الحياة بورفؤاد",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "بورفؤاد",
+      "lat": 31.244,
+      "lng": 32.3203,
+      "capacity": 160,
+      "status": "free"
+    },
+    {
+      "id": "H_S01",
+      "name": "مستشفى العريش العام",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "العريش",
+      "lat": 31.1365,
+      "lng": 33.8089,
+      "capacity": 120,
+      "status": "free"
+    },
+    {
+      "id": "H_S02",
+      "name": "مستشفى بئر العبد المركزي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "بئر العبد",
+      "lat": 31.018,
+      "lng": 33.018,
+      "capacity": 80,
+      "status": "free"
+    },
+    {
+      "id": "H_S03",
+      "name": "مستشفى الشيخ زويد المركزي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "الشيخ زويد",
+      "lat": 31.212,
+      "lng": 34.11,
+      "capacity": 60,
+      "status": "free"
+    },
+    {
+      "id": "H_S04",
+      "name": "مستشفى نخل المركزي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "نخل",
+      "lat": 30.649,
+      "lng": 33.747,
+      "capacity": 40,
+      "status": "free"
+    },
+    {
+      "id": "H_S05",
+      "name": "مستشفى الحسنة المركزي",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "الحسنة",
+      "lat": 30.468,
+      "lng": 33.789,
+      "capacity": 35,
+      "status": "free"
+    },
+    {
+      "id": "H_S06",
+      "name": "مستشفى الطور العام",
+      "type": "hospital",
+      "gov": "سيناء",
+      "city": "الطور",
+      "lat": 28.239,
+      "lng": 33.615,
+      "capacity": 90,
+      "status": "free"
+    },
+    {
+      "id": "H_C01",
+      "name": "مستشفى القصر العيني",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.0297,
+      "lng": 31.232,
+      "capacity": 320,
+      "status": "free"
+    },
+    {
+      "id": "H_C02",
+      "name": "مستشفى عين شمس التخصصي",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.075,
+      "lng": 31.288,
+      "capacity": 280,
+      "status": "free"
+    },
+    {
+      "id": "H_C03",
+      "name": "مستشفى الدمرداش",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.07,
+      "lng": 31.279,
+      "capacity": 200,
+      "status": "busy"
+    },
+    {
+      "id": "H_C04",
+      "name": "مستشفى معهد ناصر",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.084,
+      "lng": 31.24,
+      "capacity": 260,
+      "status": "free"
+    },
+    {
+      "id": "H_C05",
+      "name": "مستشفى دار الشفاء",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.055,
+      "lng": 31.264,
+      "capacity": 180,
+      "status": "free"
+    },
+    {
+      "id": "H_C06",
+      "name": "مستشفى الهلال",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.058,
+      "lng": 31.249,
+      "capacity": 150,
+      "status": "free"
+    },
+    {
+      "id": "H_C07",
+      "name": "مستشفى أم المصريين",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "الجيزة",
+      "lat": 30.014,
+      "lng": 31.204,
+      "capacity": 220,
+      "status": "free"
+    },
+    {
+      "id": "H_C08",
+      "name": "مستشفى الشيخ زايد التخصصي",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "الشيخ زايد",
+      "lat": 30.052,
+      "lng": 31.005,
+      "capacity": 190,
+      "status": "free"
+    },
+    {
+      "id": "H_C09",
+      "name": "مستشفى 6 أكتوبر المركزي",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "6 أكتوبر",
+      "lat": 29.963,
+      "lng": 30.928,
+      "capacity": 160,
+      "status": "free"
+    },
+    {
+      "id": "H_C10",
+      "name": "مستشفى حلوان العام",
+      "type": "hospital",
+      "gov": "القاهرة",
+      "city": "حلوان",
+      "lat": 29.85,
+      "lng": 31.333,
+      "capacity": 140,
+      "status": "free"
+    },
+    {
+      "id": "H_A01",
+      "name": "مستشفى الشاطبي الجامعي",
+      "type": "hospital",
+      "gov": "الاسكندرية",
+      "city": "الإسكندرية",
+      "lat": 31.208,
+      "lng": 29.913,
+      "capacity": 240,
+      "status": "free"
+    },
+    {
+      "id": "H_A02",
+      "name": "مستشفى جامعة الإسكندرية",
+      "type": "hospital",
+      "gov": "الاسكندرية",
+      "city": "الإسكندرية",
+      "lat": 31.2,
+      "lng": 29.918,
+      "capacity": 300,
+      "status": "free"
+    },
+    {
+      "id": "H_A03",
+      "name": "مستشفى العامرية العام",
+      "type": "hospital",
+      "gov": "الاسكندرية",
+      "city": "الإسكندرية",
+      "lat": 31.124,
+      "lng": 29.793,
+      "capacity": 180,
+      "status": "free"
+    },
+    {
+      "id": "H_A04",
+      "name": "مستشفى برج العرب",
+      "type": "hospital",
+      "gov": "الاسكندرية",
+      "city": "برج العرب",
+      "lat": 30.91,
+      "lng": 29.534,
+      "capacity": 120,
+      "status": "free"
+    },
+    {
+      "id": "H_D01",
+      "name": "مستشفى المنصورة الجامعي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "المنصورة",
+      "lat": 31.036,
+      "lng": 31.379,
+      "capacity": 280,
+      "status": "free"
+    },
+    {
+      "id": "H_D02",
+      "name": "مستشفى المنصورة الدولي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "المنصورة",
+      "lat": 31.045,
+      "lng": 31.355,
+      "capacity": 200,
+      "status": "free"
+    },
+    {
+      "id": "H_D03",
+      "name": "مستشفى الزقازيق الجامعي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "الزقازيق",
+      "lat": 30.588,
+      "lng": 31.501,
+      "capacity": 260,
+      "status": "free"
+    },
+    {
+      "id": "H_D04",
+      "name": "مستشفى طنطا الجامعي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "طنطا",
+      "lat": 30.786,
+      "lng": 31,
+      "capacity": 250,
+      "status": "free"
+    },
+    {
+      "id": "H_D05",
+      "name": "مستشفى دمنهور العام",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "دمنهور",
+      "lat": 31.037,
+      "lng": 30.468,
+      "capacity": 190,
+      "status": "free"
+    },
+    {
+      "id": "H_D06",
+      "name": "مستشفى شبين الكوم",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "شبين الكوم",
+      "lat": 30.56,
+      "lng": 31.01,
+      "capacity": 170,
+      "status": "free"
+    },
+    {
+      "id": "H_D07",
+      "name": "مستشفى بنها الجامعي",
+      "type": "hospital",
+      "gov": "الدلتا",
+      "city": "بنها",
+      "lat": 30.469,
+      "lng": 31.184,
+      "capacity": 210,
+      "status": "free"
+    },
+    {
+      "id": "H_P01",
+      "name": "مستشفى أسيوط الجامعي",
+      "type": "hospital",
+      "gov": "الصعيد",
+      "city": "أسيوط",
+      "lat": 27.178,
+      "lng": 31.185,
+      "capacity": 290,
+      "status": "free"
+    },
+    {
+      "id": "H_P02",
+      "name": "مستشفى المنيا العام",
+      "type": "hospital",
+      "gov": "الصعيد",
+      "city": "المنيا",
+      "lat": 28.109,
+      "lng": 30.75,
+      "capacity": 200,
+      "status": "free"
+    },
+    {
+      "id": "H_P03",
+      "name": "مستشفى سوهاج الجامعي",
+      "type": "hospital",
+      "gov": "الصعيد",
+      "city": "سوهاج",
+      "lat": 26.559,
+      "lng": 31.695,
+      "capacity": 240,
+      "status": "free"
+    },
+    {
+      "id": "H_P04",
+      "name": "مستشفى قنا العام",
+      "type": "hospital",
+      "gov": "الصعيد",
+      "city": "قنا",
+      "lat": 26.155,
+      "lng": 32.716,
+      "capacity": 180,
+      "status": "free"
+    },
+    {
+      "id": "H_P05",
+      "name": "مستشفى أسوان الجامعي",
+      "type": "hospital",
+      "gov": "الصعيد",
+      "city": "أسوان",
+      "lat": 24.088,
+      "lng": 32.899,
+      "capacity": 210,
+      "status": "free"
+    },
+    {
+      "id": "A_S00",
+      "name": "إسعاف رمانة - الطريق الدولي",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S00",
+      "lat": 31.005,
+      "lng": 32.654,
+      "status": "available",
+      "speed": 65
+    },
+    {
+      "id": "A_S11",
+      "name": "إسعاف رابعة وبالوظة",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S07",
+      "lat": 31.016,
+      "lng": 32.745,
+      "status": "available",
+      "speed": 65
+    },
+    {
+      "id": "A_S12",
+      "name": "إسعاف القنطرة شرق",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S08",
+      "lat": 30.856,
+      "lng": 32.336,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S01",
+      "name": "إسعاف العريش - الميدان",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S01",
+      "lat": 31.131,
+      "lng": 33.8,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S02",
+      "name": "إسعاف العريش - البحر",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S01",
+      "lat": 31.139,
+      "lng": 33.7995,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S03",
+      "name": "إسعاف المساعيد",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S01",
+      "lat": 31.122,
+      "lng": 33.792,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S04",
+      "name": "إسعاف العبور",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S01",
+      "lat": 31.1355,
+      "lng": 33.815,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_S05",
+      "name": "إسعاف بئر العبد",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S02",
+      "lat": 31.019,
+      "lng": 33.02,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S06",
+      "name": "إسعاف الشيخ زويد",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S03",
+      "lat": 31.214,
+      "lng": 34.112,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S07",
+      "name": "إسعاف نخل",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S04",
+      "lat": 30.65,
+      "lng": 33.749,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S08",
+      "name": "إسعاف الحسنة",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S05",
+      "lat": 30.47,
+      "lng": 33.791,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S09",
+      "name": "إسعاف الطور - شرم",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S06",
+      "lat": 28.24,
+      "lng": 33.617,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_S10",
+      "name": "إسعاف نويبع",
+      "type": "ambulance",
+      "gov": "سيناء",
+      "hospitalId": "H_S06",
+      "lat": 29.031,
+      "lng": 34.662,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C01",
+      "name": "إسعاف القصر العيني 1",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C01",
+      "lat": 30.0305,
+      "lng": 31.233,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C02",
+      "name": "إسعاف القصر العيني 2",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C01",
+      "lat": 30.0285,
+      "lng": 31.231,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C03",
+      "name": "إسعاف عين شمس",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C02",
+      "lat": 30.076,
+      "lng": 31.289,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C04",
+      "name": "إسعاف الدمرداش",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C03",
+      "lat": 30.071,
+      "lng": 31.28,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_C05",
+      "name": "إسعاف معهد ناصر",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C04",
+      "lat": 30.085,
+      "lng": 31.241,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C06",
+      "name": "إسعاف رمسيس",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C06",
+      "lat": 30.059,
+      "lng": 31.25,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C07",
+      "name": "إسعاف الجيزة",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C07",
+      "lat": 30.015,
+      "lng": 31.205,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C08",
+      "name": "إسعاف المهندسين",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C07",
+      "lat": 30.053,
+      "lng": 31.203,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C09",
+      "name": "إسعاف الشيخ زايد",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C08",
+      "lat": 30.053,
+      "lng": 31.006,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C10",
+      "name": "إسعاف 6 أكتوبر",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C09",
+      "lat": 29.964,
+      "lng": 30.929,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C11",
+      "name": "إسعاف المعادي",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C01",
+      "lat": 29.959,
+      "lng": 31.259,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C12",
+      "name": "إسعاف مدينة نصر",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C02",
+      "lat": 30.044,
+      "lng": 31.349,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C13",
+      "name": "إسعاف حلوان",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C10",
+      "lat": 29.851,
+      "lng": 31.334,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C14",
+      "name": "إسعاف شبرا",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C04",
+      "lat": 30.085,
+      "lng": 31.245,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_C15",
+      "name": "إسعاف مصر الجديدة",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C05",
+      "lat": 30.082,
+      "lng": 31.318,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_C16",
+      "name": "إسعاف التجمع الخامس",
+      "type": "ambulance",
+      "gov": "القاهرة",
+      "hospitalId": "H_C01",
+      "lat": 30.02,
+      "lng": 31.4,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A01",
+      "name": "إسعاف الشاطبي",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A01",
+      "lat": 31.209,
+      "lng": 29.914,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A02",
+      "name": "إسعاف سموحة",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A02",
+      "lat": 31.201,
+      "lng": 29.919,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A03",
+      "name": "إسعاف العامرية",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A03",
+      "lat": 31.125,
+      "lng": 29.794,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A04",
+      "name": "إسعاف برج العرب",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A04",
+      "lat": 30.911,
+      "lng": 29.535,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A05",
+      "name": "إسعاف المنتزه",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A01",
+      "lat": 31.28,
+      "lng": 30.02,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_A06",
+      "name": "إسعاف العجمي",
+      "type": "ambulance",
+      "gov": "الاسكندرية",
+      "hospitalId": "H_A03",
+      "lat": 31.11,
+      "lng": 29.79,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_D01",
+      "name": "إسعاف المنصورة 1",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D01",
+      "lat": 31.037,
+      "lng": 31.38,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D02",
+      "name": "إسعاف المنصورة 2",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D02",
+      "lat": 31.046,
+      "lng": 31.356,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D03",
+      "name": "إسعاف الزقازيق 1",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D03",
+      "lat": 30.589,
+      "lng": 31.502,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D04",
+      "name": "إسعاف الزقازيق 2",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D03",
+      "lat": 30.59,
+      "lng": 31.505,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_D05",
+      "name": "إسعاف طنطا 1",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D04",
+      "lat": 30.787,
+      "lng": 31.001,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D06",
+      "name": "إسعاف طنطا 2",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D04",
+      "lat": 30.788,
+      "lng": 31.002,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D07",
+      "name": "إسعاف دمنهور",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D05",
+      "lat": 31.038,
+      "lng": 30.469,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D08",
+      "name": "إسعاف كفر الشيخ",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D04",
+      "lat": 31.11,
+      "lng": 30.938,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D09",
+      "name": "إسعاف شبين الكوم",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D06",
+      "lat": 30.561,
+      "lng": 31.011,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D10",
+      "name": "إسعاف بنها 1",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D07",
+      "lat": 30.47,
+      "lng": 31.185,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D11",
+      "name": "إسعاف بنها 2",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D07",
+      "lat": 30.471,
+      "lng": 31.186,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D12",
+      "name": "إسعاف دمياط",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D01",
+      "lat": 31.815,
+      "lng": 31.814,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D13",
+      "name": "إسعاف بورسعيد",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D01",
+      "lat": 31.265,
+      "lng": 32.301,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_D14",
+      "name": "إسعاف الإسماعيلية",
+      "type": "ambulance",
+      "gov": "الدلتا",
+      "hospitalId": "H_D03",
+      "lat": 30.585,
+      "lng": 32.271,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P01",
+      "name": "إسعاف أسيوط 1",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P01",
+      "lat": 27.179,
+      "lng": 31.186,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P02",
+      "name": "إسعاف أسيوط 2",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P01",
+      "lat": 27.18,
+      "lng": 31.187,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P03",
+      "name": "إسعاف المنيا 1",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P02",
+      "lat": 28.11,
+      "lng": 30.751,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P04",
+      "name": "إسعاف المنيا 2",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P02",
+      "lat": 28.111,
+      "lng": 30.752,
+      "status": "busy",
+      "speed": 60
+    },
+    {
+      "id": "A_P05",
+      "name": "إسعاف سوهاج 1",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P03",
+      "lat": 26.56,
+      "lng": 31.696,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P06",
+      "name": "إسعاف سوهاج 2",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P03",
+      "lat": 26.561,
+      "lng": 31.697,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P07",
+      "name": "إسعاف قنا",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P04",
+      "lat": 26.156,
+      "lng": 32.717,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P08",
+      "name": "إسعاف الأقصر",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P04",
+      "lat": 25.687,
+      "lng": 32.639,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P09",
+      "name": "إسعاف أسوان 1",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P05",
+      "lat": 24.089,
+      "lng": 32.9,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P10",
+      "name": "إسعاف أسوان 2",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P05",
+      "lat": 24.09,
+      "lng": 32.901,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P11",
+      "name": "إسعاف الفيوم",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P02",
+      "lat": 29.308,
+      "lng": 30.844,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "A_P12",
+      "name": "إسعاف بني سويف",
+      "type": "ambulance",
+      "gov": "الصعيد",
+      "hospitalId": "H_P02",
+      "lat": 30.063,
+      "lng": 31.059,
+      "status": "available",
+      "speed": 60
+    },
+    {
+      "id": "J_SIN_01",
+      "name": "تقاطع ميدان الرفاعي - العريش",
+      "gov": "سيناء",
+      "city": "العريش",
+      "lat": 31.1325,
+      "lng": 33.801,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_02",
+      "name": "تقاطع المساعيد الساحلي - العريش",
+      "gov": "سيناء",
+      "city": "العريش",
+      "lat": 31.124,
+      "lng": 33.775,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_03",
+      "name": "محور بئر العبد الدولي",
+      "gov": "سيناء",
+      "city": "بئر العبد",
+      "lat": 31.0175,
+      "lng": 33.01,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_04",
+      "name": "تقاطع رابعة - الطريق الدولي",
+      "gov": "سيناء",
+      "city": "رابعة",
+      "lat": 31.0155,
+      "lng": 32.752,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_05",
+      "name": "تقاطع رمانة وبالوظة الدولي",
+      "gov": "سيناء",
+      "city": "رمانة",
+      "lat": 31.008,
+      "lng": 32.658,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_06",
+      "name": "محور القنطرة شرق وكوبري السلام",
+      "gov": "سيناء",
+      "city": "القنطرة شرق",
+      "lat": 30.855,
+      "lng": 32.325,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_07",
+      "name": "تقاطع وسط سيناء - الحسنة ونخل",
+      "gov": "سيناء",
+      "city": "وسط سيناء",
+      "lat": 30.56,
+      "lng": 33.76,
+      "type": "intersection"
+    },
+    {
+      "id": "J_SIN_08",
+      "name": "تقاطع نفق الشهيد أحمد حمدي - السويس",
+      "gov": "سيناء",
+      "city": "السويس",
+      "lat": 30.025,
+      "lng": 32.575,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAN_01",
+      "name": "محور الإسماعيلية الصحراوي",
+      "gov": "الدلتا",
+      "city": "الإسماعيلية",
+      "lat": 30.59,
+      "lng": 32.268,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAN_02",
+      "name": "مدخل بورسعيد الجنوبي - محور 30 يونيو",
+      "gov": "الدلتا",
+      "city": "بورسعيد",
+      "lat": 31.235,
+      "lng": 32.295,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_01",
+      "name": "ميدان التحرير وكوبري قصر النيل",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_02",
+      "name": "ميدان رمسيس وغمرة",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.062,
+      "lng": 31.2465,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_03",
+      "name": "تقاطع العباسية ومدينة نصر",
+      "gov": "القاهرة",
+      "city": "القاهرة",
+      "lat": 30.066,
+      "lng": 31.285,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_04",
+      "name": "ميدان الجيزة وجامعة القاهرة",
+      "gov": "القاهرة",
+      "city": "الجيزة",
+      "lat": 30.016,
+      "lng": 31.212,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_05",
+      "name": "محور 26 يوليو - الشيخ زايد وأكتوبر",
+      "gov": "القاهرة",
+      "city": "6 أكتوبر",
+      "lat": 30.022,
+      "lng": 31.015,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_06",
+      "name": "الطريق الدائري - المعادي وحلوان",
+      "gov": "القاهرة",
+      "city": "المعادي",
+      "lat": 29.962,
+      "lng": 31.275,
+      "type": "intersection"
+    },
+    {
+      "id": "J_CAI_07",
+      "name": "محور المشير والتجمع الخامس",
+      "gov": "القاهرة",
+      "city": "القاهرة الجديدة",
+      "lat": 30.028,
+      "lng": 31.38,
+      "type": "intersection"
+    },
+    {
+      "id": "J_DEL_01",
+      "name": "طريق مصر الإسكندرية الزراعي - بنها",
+      "gov": "الدلتا",
+      "city": "بنها",
+      "lat": 30.466,
+      "lng": 31.182,
+      "type": "intersection"
+    },
+    {
+      "id": "J_DEL_02",
+      "name": "تقاطع وسط الدلتا - طنطا",
+      "gov": "الدلتا",
+      "city": "طنطا",
+      "lat": 30.785,
+      "lng": 30.998,
+      "type": "intersection"
+    },
+    {
+      "id": "J_DEL_03",
+      "name": "تقاطع المنصورة وطلخا",
+      "gov": "الدلتا",
+      "city": "المنصورة",
+      "lat": 31.04,
+      "lng": 31.37,
+      "type": "intersection"
+    },
+    {
+      "id": "J_DEL_04",
+      "name": "محور الزقازيق - الشرقية",
+      "gov": "الدلتا",
+      "city": "الزقازيق",
+      "lat": 30.587,
+      "lng": 31.5,
+      "type": "intersection"
+    },
+    {
+      "id": "J_DEL_05",
+      "name": "تقاطع دمنهور الزراعي",
+      "gov": "الدلتا",
+      "city": "دمنهور",
+      "lat": 31.035,
+      "lng": 30.465,
+      "type": "intersection"
+    },
+    {
+      "id": "J_ALX_01",
+      "name": "كورنيش الإسكندرية - الشاطبي وسموحة",
+      "gov": "الاسكندرية",
+      "city": "الإسكندرية",
+      "lat": 31.204,
+      "lng": 29.915,
+      "type": "intersection"
+    },
+    {
+      "id": "J_ALX_02",
+      "name": "مدخل الإسكندرية الصحراوي - العامرية",
+      "gov": "الاسكندرية",
+      "city": "الإسكندرية",
+      "lat": 31.118,
+      "lng": 29.795,
+      "type": "intersection"
+    },
+    {
+      "id": "J_UPP_01",
+      "name": "طريق الصعيد الحر - بني سويف والمنيا",
+      "gov": "الصعيد",
+      "city": "المنيا",
+      "lat": 28.55,
+      "lng": 30.82,
+      "type": "intersection"
+    },
+    {
+      "id": "J_UPP_02",
+      "name": "محور أسيوط وسوهاج السريع",
+      "gov": "الصعيد",
+      "city": "أسيوط",
+      "lat": 27.182,
+      "lng": 31.188,
+      "type": "intersection"
+    },
+    {
+      "id": "J_UPP_03",
+      "name": "محور قنا والأقصر وأسوان",
+      "gov": "الصعيد",
+      "city": "قنا",
+      "lat": 25.92,
+      "lng": 32.68,
+      "type": "intersection"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A_A01",
+      "to": "A_A02",
+      "distance": 1.19
+    },
+    {
+      "from": "A_A01",
+      "to": "A_A05",
+      "distance": 15.11
+    },
+    {
+      "from": "A_A01",
+      "to": "H_A01",
+      "distance": 0.2
+    },
+    {
+      "from": "A_A01",
+      "to": "J_ALX_01",
+      "distance": 0.67
+    },
+    {
+      "from": "A_A01",
+      "to": "J_ALX_02",
+      "distance": 18.53
+    },
+    {
+      "from": "A_A01",
+      "to": "J_DEL_05",
+      "distance": 68.2
+    },
+    {
+      "from": "A_A02",
+      "to": "A_A05",
+      "distance": 15.36
+    },
+    {
+      "from": "A_A02",
+      "to": "H_A01",
+      "distance": 1.14
+    },
+    {
+      "from": "A_A02",
+      "to": "H_A02",
+      "distance": 0.2
+    },
+    {
+      "from": "A_A02",
+      "to": "J_ALX_01",
+      "distance": 0.6
+    },
+    {
+      "from": "A_A02",
+      "to": "J_ALX_02",
+      "distance": 18.28
+    },
+    {
+      "from": "A_A02",
+      "to": "J_DEL_05",
+      "distance": 67.29
+    },
+    {
+      "from": "A_A03",
+      "to": "A_A06",
+      "distance": 2.02
+    },
+    {
+      "from": "A_A03",
+      "to": "H_A03",
+      "distance": 0.2
+    },
+    {
+      "from": "A_A03",
+      "to": "J_ALX_01",
+      "distance": 17.67
+    },
+    {
+      "from": "A_A03",
+      "to": "J_ALX_02",
+      "distance": 0.93
+    },
+    {
+      "from": "A_A03",
+      "to": "J_DEL_05",
+      "distance": 78.91
+    },
+    {
+      "from": "A_A04",
+      "to": "A_A06",
+      "distance": 38.78
+    },
+    {
+      "from": "A_A04",
+      "to": "H_A04",
+      "distance": 0.2
+    },
+    {
+      "from": "A_A04",
+      "to": "J_ALX_01",
+      "distance": 59.41
+    },
+    {
+      "from": "A_A04",
+      "to": "J_ALX_02",
+      "distance": 39.91
+    },
+    {
+      "from": "A_A04",
+      "to": "J_DEL_05",
+      "distance": 109.47
+    },
+    {
+      "from": "A_A05",
+      "to": "H_A01",
+      "distance": 15.28
+    },
+    {
+      "from": "A_A05",
+      "to": "J_ALX_01",
+      "distance": 15.96
+    },
+    {
+      "from": "A_A05",
+      "to": "J_ALX_02",
+      "distance": 34.13
+    },
+    {
+      "from": "A_A05",
+      "to": "J_DEL_05",
+      "distance": 61.43
+    },
+    {
+      "from": "A_A06",
+      "to": "H_A03",
+      "distance": 1.87
+    },
+    {
+      "from": "A_A06",
+      "to": "H_A04",
+      "distance": 38.95
+    },
+    {
+      "from": "A_A06",
+      "to": "J_ALX_01",
+      "distance": 19.32
+    },
+    {
+      "from": "A_A06",
+      "to": "J_ALX_02",
+      "distance": 1.19
+    },
+    {
+      "from": "A_A06",
+      "to": "J_DEL_05",
+      "distance": 79.09
+    },
+    {
+      "from": "A_C01",
+      "to": "A_C02",
+      "distance": 0.35
+    },
+    {
+      "from": "A_C01",
+      "to": "A_C08",
+      "distance": 4.51
+    },
+    {
+      "from": "A_C01",
+      "to": "H_C01",
+      "distance": 0.18
+    },
+    {
+      "from": "A_C01",
+      "to": "J_CAI_01",
+      "distance": 1.85
+    },
+    {
+      "from": "A_C01",
+      "to": "J_CAI_02",
+      "distance": 4.56
+    },
+    {
+      "from": "A_C01",
+      "to": "J_CAI_04",
+      "distance": 3.15
+    },
+    {
+      "from": "A_C02",
+      "to": "A_C07",
+      "distance": 3.44
+    },
+    {
+      "from": "A_C02",
+      "to": "H_C01",
+      "distance": 0.21
+    },
+    {
+      "from": "A_C02",
+      "to": "H_C07",
+      "distance": 3.61
+    },
+    {
+      "from": "A_C02",
+      "to": "J_CAI_01",
+      "distance": 2.15
+    },
+    {
+      "from": "A_C02",
+      "to": "J_CAI_02",
+      "distance": 4.9
+    },
+    {
+      "from": "A_C02",
+      "to": "J_CAI_04",
+      "distance": 2.71
+    },
+    {
+      "from": "A_C02",
+      "to": "J_CAI_06",
+      "distance": 10.06
+    },
+    {
+      "from": "A_C03",
+      "to": "A_C04",
+      "distance": 1.21
+    },
+    {
+      "from": "A_C03",
+      "to": "A_C15",
+      "distance": 3.39
+    },
+    {
+      "from": "A_C03",
+      "to": "H_C02",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C03",
+      "to": "H_C03",
+      "distance": 1.38
+    },
+    {
+      "from": "A_C03",
+      "to": "J_CAI_01",
+      "distance": 7.59
+    },
+    {
+      "from": "A_C03",
+      "to": "J_CAI_02",
+      "distance": 5.34
+    },
+    {
+      "from": "A_C03",
+      "to": "J_CAI_03",
+      "distance": 1.44
+    },
+    {
+      "from": "A_C04",
+      "to": "H_C02",
+      "distance": 1.05
+    },
+    {
+      "from": "A_C04",
+      "to": "H_C03",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C04",
+      "to": "J_CAI_01",
+      "distance": 6.33
+    },
+    {
+      "from": "A_C04",
+      "to": "J_CAI_02",
+      "distance": 4.12
+    },
+    {
+      "from": "A_C04",
+      "to": "J_CAI_03",
+      "distance": 0.87
+    },
+    {
+      "from": "A_C05",
+      "to": "A_C14",
+      "distance": 0.45
+    },
+    {
+      "from": "A_C05",
+      "to": "H_C04",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C05",
+      "to": "J_CAI_01",
+      "distance": 5.54
+    },
+    {
+      "from": "A_C05",
+      "to": "J_CAI_02",
+      "distance": 3.08
+    },
+    {
+      "from": "A_C05",
+      "to": "J_CAI_03",
+      "distance": 5.77
+    },
+    {
+      "from": "A_C06",
+      "to": "H_C05",
+      "distance": 1.67
+    },
+    {
+      "from": "A_C06",
+      "to": "H_C06",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C06",
+      "to": "J_CAI_01",
+      "distance": 2.6
+    },
+    {
+      "from": "A_C06",
+      "to": "J_CAI_02",
+      "distance": 0.56
+    },
+    {
+      "from": "A_C06",
+      "to": "J_CAI_03",
+      "distance": 4.22
+    },
+    {
+      "from": "A_C07",
+      "to": "H_C07",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C07",
+      "to": "J_CAI_01",
+      "distance": 5.38
+    },
+    {
+      "from": "A_C07",
+      "to": "J_CAI_02",
+      "distance": 8.03
+    },
+    {
+      "from": "A_C07",
+      "to": "J_CAI_04",
+      "distance": 0.81
+    },
+    {
+      "from": "A_C08",
+      "to": "H_C01",
+      "distance": 4.49
+    },
+    {
+      "from": "A_C08",
+      "to": "J_CAI_01",
+      "distance": 3.88
+    },
+    {
+      "from": "A_C08",
+      "to": "J_CAI_02",
+      "distance": 5.25
+    },
+    {
+      "from": "A_C08",
+      "to": "J_CAI_04",
+      "distance": 5.13
+    },
+    {
+      "from": "A_C09",
+      "to": "A_P12",
+      "distance": 6.16
+    },
+    {
+      "from": "A_C09",
+      "to": "H_C08",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C09",
+      "to": "J_CAI_01",
+      "distance": 27
+    },
+    {
+      "from": "A_C09",
+      "to": "J_CAI_04",
+      "distance": 24.71
+    },
+    {
+      "from": "A_C09",
+      "to": "J_CAI_05",
+      "distance": 4.19
+    },
+    {
+      "from": "A_C10",
+      "to": "A_P11",
+      "distance": 86.62
+    },
+    {
+      "from": "A_C10",
+      "to": "H_C08",
+      "distance": 14.42
+    },
+    {
+      "from": "A_C10",
+      "to": "H_C09",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C10",
+      "to": "J_CAI_01",
+      "distance": 37.65
+    },
+    {
+      "from": "A_C10",
+      "to": "J_CAI_04",
+      "distance": 33.99
+    },
+    {
+      "from": "A_C10",
+      "to": "J_CAI_05",
+      "distance": 12.39
+    },
+    {
+      "from": "A_C11",
+      "to": "A_C13",
+      "distance": 16.54
+    },
+    {
+      "from": "A_C11",
+      "to": "H_C07",
+      "distance": 9.55
+    },
+    {
+      "from": "A_C11",
+      "to": "H_C10",
+      "distance": 16.59
+    },
+    {
+      "from": "A_C11",
+      "to": "J_CAI_01",
+      "distance": 11.9
+    },
+    {
+      "from": "A_C11",
+      "to": "J_CAI_04",
+      "distance": 9.19
+    },
+    {
+      "from": "A_C11",
+      "to": "J_CAI_06",
+      "distance": 1.86
+    },
+    {
+      "from": "A_C12",
+      "to": "A_C15",
+      "distance": 6.1
+    },
+    {
+      "from": "A_C12",
+      "to": "A_C16",
+      "distance": 6.59
+    },
+    {
+      "from": "A_C12",
+      "to": "J_CAI_02",
+      "distance": 12.28
+    },
+    {
+      "from": "A_C12",
+      "to": "J_CAI_03",
+      "distance": 8.09
+    },
+    {
+      "from": "A_C12",
+      "to": "J_CAI_07",
+      "distance": 4.1
+    },
+    {
+      "from": "A_C13",
+      "to": "H_C10",
+      "distance": 0.2
+    },
+    {
+      "from": "A_C13",
+      "to": "J_CAI_04",
+      "distance": 26.58
+    },
+    {
+      "from": "A_C13",
+      "to": "J_CAI_06",
+      "distance": 16.04
+    },
+    {
+      "from": "A_C13",
+      "to": "J_CAI_07",
+      "distance": 24.61
+    },
+    {
+      "from": "A_C14",
+      "to": "H_C04",
+      "distance": 0.58
+    },
+    {
+      "from": "A_C14",
+      "to": "J_CAI_01",
+      "distance": 5.61
+    },
+    {
+      "from": "A_C14",
+      "to": "J_CAI_02",
+      "distance": 3.02
+    },
+    {
+      "from": "A_C14",
+      "to": "J_CAI_03",
+      "distance": 5.36
+    },
+    {
+      "from": "A_C15",
+      "to": "A_C16",
+      "distance": 12.37
+    },
+    {
+      "from": "A_C15",
+      "to": "H_C02",
+      "distance": 3.53
+    },
+    {
+      "from": "A_C15",
+      "to": "J_CAI_02",
+      "distance": 8.82
+    },
+    {
+      "from": "A_C15",
+      "to": "J_CAI_03",
+      "distance": 4.3
+    },
+    {
+      "from": "A_C15",
+      "to": "J_CAI_07",
+      "distance": 9.99
+    },
+    {
+      "from": "A_C16",
+      "to": "J_CAI_03",
+      "distance": 14.88
+    },
+    {
+      "from": "A_C16",
+      "to": "J_CAI_06",
+      "distance": 16.66
+    },
+    {
+      "from": "A_C16",
+      "to": "J_CAI_07",
+      "distance": 2.5
+    },
+    {
+      "from": "A_D01",
+      "to": "A_D02",
+      "distance": 2.95
+    },
+    {
+      "from": "A_D01",
+      "to": "H_D01",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D01",
+      "to": "J_DEL_02",
+      "distance": 56.08
+    },
+    {
+      "from": "A_D01",
+      "to": "J_DEL_03",
+      "distance": 1.19
+    },
+    {
+      "from": "A_D01",
+      "to": "J_DEL_04",
+      "distance": 62.63
+    },
+    {
+      "from": "A_D02",
+      "to": "H_D01",
+      "distance": 2.9
+    },
+    {
+      "from": "A_D02",
+      "to": "H_D02",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D02",
+      "to": "J_DEL_02",
+      "distance": 54.68
+    },
+    {
+      "from": "A_D02",
+      "to": "J_DEL_03",
+      "distance": 1.76
+    },
+    {
+      "from": "A_D02",
+      "to": "J_DEL_04",
+      "distance": 64.49
+    },
+    {
+      "from": "A_D03",
+      "to": "A_D04",
+      "distance": 0.36
+    },
+    {
+      "from": "A_D03",
+      "to": "H_D03",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D03",
+      "to": "J_DEL_01",
+      "distance": 40.95
+    },
+    {
+      "from": "A_D03",
+      "to": "J_DEL_03",
+      "distance": 63.08
+    },
+    {
+      "from": "A_D03",
+      "to": "J_DEL_04",
+      "distance": 0.35
+    },
+    {
+      "from": "A_D04",
+      "to": "H_D03",
+      "distance": 0.52
+    },
+    {
+      "from": "A_D04",
+      "to": "J_DEL_01",
+      "distance": 41.32
+    },
+    {
+      "from": "A_D04",
+      "to": "J_DEL_03",
+      "distance": 63.04
+    },
+    {
+      "from": "A_D04",
+      "to": "J_DEL_04",
+      "distance": 0.69
+    },
+    {
+      "from": "A_D05",
+      "to": "A_D06",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D05",
+      "to": "A_D08",
+      "distance": 42.97
+    },
+    {
+      "from": "A_D05",
+      "to": "H_D04",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D05",
+      "to": "J_DEL_01",
+      "distance": 48.4
+    },
+    {
+      "from": "A_D05",
+      "to": "J_DEL_02",
+      "distance": 0.43
+    },
+    {
+      "from": "A_D05",
+      "to": "J_DEL_03",
+      "distance": 54.98
+    },
+    {
+      "from": "A_D06",
+      "to": "A_D08",
+      "distance": 42.86
+    },
+    {
+      "from": "A_D06",
+      "to": "H_D04",
+      "distance": 0.35
+    },
+    {
+      "from": "A_D06",
+      "to": "J_DEL_01",
+      "distance": 48.47
+    },
+    {
+      "from": "A_D06",
+      "to": "J_DEL_02",
+      "distance": 0.6
+    },
+    {
+      "from": "A_D06",
+      "to": "J_DEL_03",
+      "distance": 54.8
+    },
+    {
+      "from": "A_D07",
+      "to": "A_D08",
+      "distance": 53.55
+    },
+    {
+      "from": "A_D07",
+      "to": "H_D05",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D07",
+      "to": "J_ALX_01",
+      "distance": 68.17
+    },
+    {
+      "from": "A_D07",
+      "to": "J_DEL_02",
+      "distance": 70.49
+    },
+    {
+      "from": "A_D07",
+      "to": "J_DEL_05",
+      "distance": 0.6
+    },
+    {
+      "from": "A_D08",
+      "to": "H_D04",
+      "distance": 43.08
+    },
+    {
+      "from": "A_D08",
+      "to": "H_D05",
+      "distance": 53.68
+    },
+    {
+      "from": "A_D08",
+      "to": "J_DEL_02",
+      "distance": 44.64
+    },
+    {
+      "from": "A_D08",
+      "to": "J_DEL_03",
+      "distance": 51.08
+    },
+    {
+      "from": "A_D08",
+      "to": "J_DEL_05",
+      "distance": 54.06
+    },
+    {
+      "from": "A_D09",
+      "to": "H_D06",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D09",
+      "to": "H_D07",
+      "distance": 22.98
+    },
+    {
+      "from": "A_D09",
+      "to": "J_DEL_01",
+      "distance": 23
+    },
+    {
+      "from": "A_D09",
+      "to": "J_DEL_02",
+      "distance": 30.43
+    },
+    {
+      "from": "A_D09",
+      "to": "J_DEL_04",
+      "distance": 57.22
+    },
+    {
+      "from": "A_D10",
+      "to": "A_D11",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D10",
+      "to": "H_D07",
+      "distance": 0.2
+    },
+    {
+      "from": "A_D10",
+      "to": "J_DEL_01",
+      "distance": 0.62
+    },
+    {
+      "from": "A_D10",
+      "to": "J_DEL_02",
+      "distance": 47.98
+    },
+    {
+      "from": "A_D10",
+      "to": "J_DEL_04",
+      "distance": 40.08
+    },
+    {
+      "from": "A_D11",
+      "to": "H_D07",
+      "distance": 0.35
+    },
+    {
+      "from": "A_D11",
+      "to": "J_DEL_01",
+      "distance": 0.8
+    },
+    {
+      "from": "A_D11",
+      "to": "J_DEL_02",
+      "distance": 47.92
+    },
+    {
+      "from": "A_D11",
+      "to": "J_DEL_04",
+      "distance": 39.92
+    },
+    {
+      "from": "A_D12",
+      "to": "A_D13",
+      "distance": 90.41
+    },
+    {
+      "from": "A_D12",
+      "to": "H_D09",
+      "distance": 90.44
+    },
+    {
+      "from": "A_D12",
+      "to": "J_CAN_02",
+      "distance": 93.2
+    },
+    {
+      "from": "A_D12",
+      "to": "J_DEL_03",
+      "distance": 117.02
+    },
+    {
+      "from": "A_D12",
+      "to": "J_SIN_06",
+      "distance": 143.06
+    },
+    {
+      "from": "A_D13",
+      "to": "H_D09",
+      "distance": 0.14
+    },
+    {
+      "from": "A_D13",
+      "to": "H_D10",
+      "distance": 3.5
+    },
+    {
+      "from": "A_D13",
+      "to": "J_CAN_02",
+      "distance": 3.99
+    },
+    {
+      "from": "A_D13",
+      "to": "J_SIN_05",
+      "distance": 54.16
+    },
+    {
+      "from": "A_D13",
+      "to": "J_SIN_06",
+      "distance": 55.69
+    },
+    {
+      "from": "A_D14",
+      "to": "H_D08",
+      "distance": 1.51
+    },
+    {
+      "from": "A_D14",
+      "to": "H_S08",
+      "distance": 35.91
+    },
+    {
+      "from": "A_D14",
+      "to": "J_CAN_01",
+      "distance": 0.74
+    },
+    {
+      "from": "A_D14",
+      "to": "J_SIN_05",
+      "distance": 72.98
+    },
+    {
+      "from": "A_D14",
+      "to": "J_SIN_06",
+      "distance": 37.17
+    },
+    {
+      "from": "A_D14",
+      "to": "J_SIN_08",
+      "distance": 81.15
+    },
+    {
+      "from": "A_P01",
+      "to": "A_P02",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P01",
+      "to": "H_P01",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P01",
+      "to": "J_UPP_01",
+      "distance": 191.1
+    },
+    {
+      "from": "A_P01",
+      "to": "J_UPP_02",
+      "distance": 0.46
+    },
+    {
+      "from": "A_P01",
+      "to": "J_UPP_03",
+      "distance": 249.07
+    },
+    {
+      "from": "A_P02",
+      "to": "H_P01",
+      "distance": 0.35
+    },
+    {
+      "from": "A_P02",
+      "to": "J_UPP_01",
+      "distance": 190.99
+    },
+    {
+      "from": "A_P02",
+      "to": "J_UPP_02",
+      "distance": 0.29
+    },
+    {
+      "from": "A_P02",
+      "to": "J_UPP_03",
+      "distance": 249.08
+    },
+    {
+      "from": "A_P03",
+      "to": "A_P04",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P03",
+      "to": "H_P02",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P03",
+      "to": "J_CAI_06",
+      "distance": 258.81
+    },
+    {
+      "from": "A_P03",
+      "to": "J_UPP_01",
+      "distance": 58.28
+    },
+    {
+      "from": "A_P03",
+      "to": "J_UPP_02",
+      "distance": 136.4
+    },
+    {
+      "from": "A_P04",
+      "to": "H_P02",
+      "distance": 0.35
+    },
+    {
+      "from": "A_P04",
+      "to": "J_CAI_06",
+      "distance": 258.65
+    },
+    {
+      "from": "A_P04",
+      "to": "J_UPP_01",
+      "distance": 58.13
+    },
+    {
+      "from": "A_P04",
+      "to": "J_UPP_02",
+      "distance": 136.48
+    },
+    {
+      "from": "A_P05",
+      "to": "A_P06",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P05",
+      "to": "H_P01",
+      "distance": 100.76
+    },
+    {
+      "from": "A_P05",
+      "to": "H_P03",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P05",
+      "to": "J_UPP_01",
+      "distance": 289.79
+    },
+    {
+      "from": "A_P05",
+      "to": "J_UPP_02",
+      "distance": 104.4
+    },
+    {
+      "from": "A_P05",
+      "to": "J_UPP_03",
+      "distance": 147.9
+    },
+    {
+      "from": "A_P06",
+      "to": "H_P01",
+      "distance": 100.72
+    },
+    {
+      "from": "A_P06",
+      "to": "H_P03",
+      "distance": 0.35
+    },
+    {
+      "from": "A_P06",
+      "to": "J_UPP_01",
+      "distance": 289.7
+    },
+    {
+      "from": "A_P06",
+      "to": "J_UPP_02",
+      "distance": 104.36
+    },
+    {
+      "from": "A_P06",
+      "to": "J_UPP_03",
+      "distance": 147.88
+    },
+    {
+      "from": "A_P07",
+      "to": "A_P08",
+      "distance": 62.22
+    },
+    {
+      "from": "A_P07",
+      "to": "H_P04",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P07",
+      "to": "J_UPP_01",
+      "distance": 397.12
+    },
+    {
+      "from": "A_P07",
+      "to": "J_UPP_02",
+      "distance": 231.79
+    },
+    {
+      "from": "A_P07",
+      "to": "J_UPP_03",
+      "distance": 31.27
+    },
+    {
+      "from": "A_P08",
+      "to": "A_P09",
+      "distance": 211.96
+    },
+    {
+      "from": "A_P08",
+      "to": "A_P10",
+      "distance": 211.85
+    },
+    {
+      "from": "A_P08",
+      "to": "H_P04",
+      "distance": 62.07
+    },
+    {
+      "from": "A_P08",
+      "to": "H_P05",
+      "distance": 212.07
+    },
+    {
+      "from": "A_P08",
+      "to": "J_UPP_01",
+      "distance": 446.17
+    },
+    {
+      "from": "A_P08",
+      "to": "J_UPP_02",
+      "distance": 268.69
+    },
+    {
+      "from": "A_P08",
+      "to": "J_UPP_03",
+      "distance": 30.95
+    },
+    {
+      "from": "A_P09",
+      "to": "A_P10",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P09",
+      "to": "H_P05",
+      "distance": 0.2
+    },
+    {
+      "from": "A_P09",
+      "to": "J_UPP_01",
+      "distance": 655.85
+    },
+    {
+      "from": "A_P09",
+      "to": "J_UPP_02",
+      "distance": 468.91
+    },
+    {
+      "from": "A_P09",
+      "to": "J_UPP_03",
+      "distance": 249.86
+    },
+    {
+      "from": "A_P10",
+      "to": "H_P05",
+      "distance": 0.36
+    },
+    {
+      "from": "A_P10",
+      "to": "J_UPP_01",
+      "distance": 655.77
+    },
+    {
+      "from": "A_P10",
+      "to": "J_UPP_02",
+      "distance": 468.85
+    },
+    {
+      "from": "A_P10",
+      "to": "J_UPP_03",
+      "distance": 249.74
+    },
+    {
+      "from": "A_P11",
+      "to": "H_C09",
+      "distance": 86.47
+    },
+    {
+      "from": "A_P11",
+      "to": "H_C10",
+      "distance": 90.39
+    },
+    {
+      "from": "A_P11",
+      "to": "J_CAI_05",
+      "distance": 98.93
+    },
+    {
+      "from": "A_P11",
+      "to": "J_CAI_06",
+      "distance": 102.24
+    },
+    {
+      "from": "A_P11",
+      "to": "J_UPP_01",
+      "distance": 102.87
+    },
+    {
+      "from": "A_P12",
+      "to": "H_C08",
+      "distance": 6.3
+    },
+    {
+      "from": "A_P12",
+      "to": "J_CAI_01",
+      "distance": 20.9
+    },
+    {
+      "from": "A_P12",
+      "to": "J_CAI_04",
+      "distance": 19.07
+    },
+    {
+      "from": "A_P12",
+      "to": "J_CAI_05",
+      "distance": 7.34
+    },
+    {
+      "from": "A_S00",
+      "to": "A_S11",
+      "distance": 10.33
+    },
+    {
+      "from": "A_S00",
+      "to": "H_S00",
+      "distance": 1.28
+    },
+    {
+      "from": "A_S00",
+      "to": "J_SIN_03",
+      "distance": 41.43
+    },
+    {
+      "from": "A_S00",
+      "to": "J_SIN_04",
+      "distance": 11.48
+    },
+    {
+      "from": "A_S00",
+      "to": "J_SIN_05",
+      "distance": 0.6
+    },
+    {
+      "from": "A_S01",
+      "to": "A_S02",
+      "distance": 1.05
+    },
+    {
+      "from": "A_S01",
+      "to": "A_S03",
+      "distance": 1.48
+    },
+    {
+      "from": "A_S01",
+      "to": "A_S04",
+      "distance": 1.79
+    },
+    {
+      "from": "A_S01",
+      "to": "H_S01",
+      "distance": 1.23
+    },
+    {
+      "from": "A_S01",
+      "to": "J_SIN_01",
+      "distance": 0.24
+    },
+    {
+      "from": "A_S01",
+      "to": "J_SIN_02",
+      "distance": 2.95
+    },
+    {
+      "from": "A_S01",
+      "to": "J_SIN_07",
+      "distance": 77.6
+    },
+    {
+      "from": "A_S02",
+      "to": "H_S01",
+      "distance": 1.11
+    },
+    {
+      "from": "A_S02",
+      "to": "J_SIN_01",
+      "distance": 0.87
+    },
+    {
+      "from": "A_S02",
+      "to": "J_SIN_02",
+      "distance": 3.5
+    },
+    {
+      "from": "A_S02",
+      "to": "J_SIN_07",
+      "distance": 78.68
+    },
+    {
+      "from": "A_S03",
+      "to": "J_SIN_01",
+      "distance": 1.71
+    },
+    {
+      "from": "A_S03",
+      "to": "J_SIN_02",
+      "distance": 1.93
+    },
+    {
+      "from": "A_S03",
+      "to": "J_SIN_07",
+      "distance": 76.33
+    },
+    {
+      "from": "A_S04",
+      "to": "A_S06",
+      "distance": 34.9
+    },
+    {
+      "from": "A_S04",
+      "to": "H_S01",
+      "distance": 0.7
+    },
+    {
+      "from": "A_S04",
+      "to": "H_S03",
+      "distance": 34.61
+    },
+    {
+      "from": "A_S04",
+      "to": "J_SIN_01",
+      "distance": 1.62
+    },
+    {
+      "from": "A_S04",
+      "to": "J_SIN_02",
+      "distance": 4.9
+    },
+    {
+      "from": "A_S04",
+      "to": "J_SIN_07",
+      "distance": 78.33
+    },
+    {
+      "from": "A_S05",
+      "to": "H_S02",
+      "distance": 0.27
+    },
+    {
+      "from": "A_S05",
+      "to": "H_S07",
+      "distance": 29.46
+    },
+    {
+      "from": "A_S05",
+      "to": "J_SIN_03",
+      "distance": 1.14
+    },
+    {
+      "from": "A_S05",
+      "to": "J_SIN_04",
+      "distance": 31.16
+    },
+    {
+      "from": "A_S05",
+      "to": "J_SIN_05",
+      "distance": 42.11
+    },
+    {
+      "from": "A_S06",
+      "to": "H_S01",
+      "distance": 35.51
+    },
+    {
+      "from": "A_S06",
+      "to": "H_S03",
+      "distance": 0.35
+    },
+    {
+      "from": "A_S06",
+      "to": "J_SIN_01",
+      "distance": 37.75
+    },
+    {
+      "from": "A_S06",
+      "to": "J_SIN_02",
+      "distance": 40.98
+    },
+    {
+      "from": "A_S06",
+      "to": "J_SIN_07",
+      "distance": 97.73
+    },
+    {
+      "from": "A_S07",
+      "to": "A_S08",
+      "distance": 24.09
+    },
+    {
+      "from": "A_S07",
+      "to": "H_S04",
+      "distance": 0.27
+    },
+    {
+      "from": "A_S07",
+      "to": "J_SIN_01",
+      "distance": 65.73
+    },
+    {
+      "from": "A_S07",
+      "to": "J_SIN_02",
+      "distance": 64.37
+    },
+    {
+      "from": "A_S07",
+      "to": "J_SIN_07",
+      "distance": 11.87
+    },
+    {
+      "from": "A_S08",
+      "to": "H_S04",
+      "distance": 24.01
+    },
+    {
+      "from": "A_S08",
+      "to": "H_S05",
+      "distance": 0.35
+    },
+    {
+      "from": "A_S08",
+      "to": "J_SIN_01",
+      "distance": 89.88
+    },
+    {
+      "from": "A_S08",
+      "to": "J_SIN_02",
+      "distance": 88.74
+    },
+    {
+      "from": "A_S08",
+      "to": "J_SIN_07",
+      "distance": 12.32
+    },
+    {
+      "from": "A_S09",
+      "to": "A_S10",
+      "distance": 158.91
+    },
+    {
+      "from": "A_S09",
+      "to": "H_S06",
+      "distance": 0.28
+    },
+    {
+      "from": "A_S09",
+      "to": "J_SIN_07",
+      "distance": 315.18
+    },
+    {
+      "from": "A_S09",
+      "to": "J_SIN_08",
+      "distance": 262.9
+    },
+    {
+      "from": "A_S09",
+      "to": "J_UPP_02",
+      "distance": 325.1
+    },
+    {
+      "from": "A_S10",
+      "to": "H_S05",
+      "distance": 213.17
+    },
+    {
+      "from": "A_S10",
+      "to": "H_S06",
+      "distance": 159.17
+    },
+    {
+      "from": "A_S10",
+      "to": "J_SIN_02",
+      "distance": 302.42
+    },
+    {
+      "from": "A_S10",
+      "to": "J_SIN_07",
+      "distance": 233.02
+    },
+    {
+      "from": "A_S10",
+      "to": "J_SIN_08",
+      "distance": 280.83
+    },
+    {
+      "from": "A_S11",
+      "to": "H_S00",
+      "distance": 11.15
+    },
+    {
+      "from": "A_S11",
+      "to": "H_S07",
+      "distance": 1.5
+    },
+    {
+      "from": "A_S11",
+      "to": "J_SIN_03",
+      "distance": 30.81
+    },
+    {
+      "from": "A_S11",
+      "to": "J_SIN_04",
+      "distance": 0.79
+    },
+    {
+      "from": "A_S11",
+      "to": "J_SIN_05",
+      "distance": 9.84
+    },
+    {
+      "from": "A_S12",
+      "to": "H_D08",
+      "distance": 34.82
+    },
+    {
+      "from": "A_S12",
+      "to": "H_S08",
+      "distance": 0.51
+    },
+    {
+      "from": "A_S12",
+      "to": "J_CAN_01",
+      "distance": 36.95
+    },
+    {
+      "from": "A_S12",
+      "to": "J_SIN_05",
+      "distance": 42.77
+    },
+    {
+      "from": "A_S12",
+      "to": "J_SIN_06",
+      "distance": 1.25
+    },
+    {
+      "from": "H_A01",
+      "to": "H_A02",
+      "distance": 1.19
+    },
+    {
+      "from": "H_A01",
+      "to": "J_ALX_01",
+      "distance": 0.57
+    },
+    {
+      "from": "H_A01",
+      "to": "J_ALX_02",
+      "distance": 18.35
+    },
+    {
+      "from": "H_A01",
+      "to": "J_DEL_05",
+      "distance": 68.27
+    },
+    {
+      "from": "H_A02",
+      "to": "J_ALX_01",
+      "distance": 0.62
+    },
+    {
+      "from": "H_A02",
+      "to": "J_ALX_02",
+      "distance": 18.1
+    },
+    {
+      "from": "H_A02",
+      "to": "J_DEL_05",
+      "distance": 67.36
+    },
+    {
+      "from": "H_A03",
+      "to": "J_ALX_01",
+      "distance": 17.84
+    },
+    {
+      "from": "H_A03",
+      "to": "J_ALX_02",
+      "distance": 0.82
+    },
+    {
+      "from": "H_A03",
+      "to": "J_DEL_05",
+      "distance": 79
+    },
+    {
+      "from": "H_A04",
+      "to": "J_ALX_01",
+      "distance": 59.59
+    },
+    {
+      "from": "H_A04",
+      "to": "J_ALX_02",
+      "distance": 40.08
+    },
+    {
+      "from": "H_A04",
+      "to": "J_DEL_05",
+      "distance": 109.61
+    },
+    {
+      "from": "H_C01",
+      "to": "J_CAI_01",
+      "distance": 1.97
+    },
+    {
+      "from": "H_C01",
+      "to": "J_CAI_02",
+      "distance": 4.7
+    },
+    {
+      "from": "H_C01",
+      "to": "J_CAI_04",
+      "distance": 3
+    },
+    {
+      "from": "H_C02",
+      "to": "H_C03",
+      "distance": 1.21
+    },
+    {
+      "from": "H_C02",
+      "to": "J_CAI_01",
+      "distance": 7.41
+    },
+    {
+      "from": "H_C02",
+      "to": "J_CAI_02",
+      "distance": 5.18
+    },
+    {
+      "from": "H_C02",
+      "to": "J_CAI_03",
+      "distance": 1.23
+    },
+    {
+      "from": "H_C03",
+      "to": "J_CAI_01",
+      "distance": 6.16
+    },
+    {
+      "from": "H_C03",
+      "to": "J_CAI_02",
+      "distance": 3.97
+    },
+    {
+      "from": "H_C03",
+      "to": "J_CAI_03",
+      "distance": 0.86
+    },
+    {
+      "from": "H_C04",
+      "to": "J_CAI_01",
+      "distance": 5.4
+    },
+    {
+      "from": "H_C04",
+      "to": "J_CAI_02",
+      "distance": 2.98
+    },
+    {
+      "from": "H_C04",
+      "to": "J_CAI_03",
+      "distance": 5.82
+    },
+    {
+      "from": "H_C05",
+      "to": "H_C06",
+      "distance": 1.75
+    },
+    {
+      "from": "H_C05",
+      "to": "J_CAI_01",
+      "distance": 3.62
+    },
+    {
+      "from": "H_C05",
+      "to": "J_CAI_02",
+      "distance": 2.19
+    },
+    {
+      "from": "H_C05",
+      "to": "J_CAI_03",
+      "distance": 2.88
+    },
+    {
+      "from": "H_C06",
+      "to": "J_CAI_01",
+      "distance": 2.42
+    },
+    {
+      "from": "H_C06",
+      "to": "J_CAI_02",
+      "distance": 0.6
+    },
+    {
+      "from": "H_C06",
+      "to": "J_CAI_03",
+      "distance": 4.36
+    },
+    {
+      "from": "H_C07",
+      "to": "J_CAI_01",
+      "distance": 5.56
+    },
+    {
+      "from": "H_C07",
+      "to": "J_CAI_02",
+      "distance": 8.2
+    },
+    {
+      "from": "H_C07",
+      "to": "J_CAI_04",
+      "distance": 0.95
+    },
+    {
+      "from": "H_C08",
+      "to": "H_C09",
+      "distance": 14.59
+    },
+    {
+      "from": "H_C08",
+      "to": "J_CAI_01",
+      "distance": 27.11
+    },
+    {
+      "from": "H_C08",
+      "to": "J_CAI_04",
+      "distance": 24.8
+    },
+    {
+      "from": "H_C08",
+      "to": "J_CAI_05",
+      "distance": 4.1
+    },
+    {
+      "from": "H_C09",
+      "to": "J_CAI_01",
+      "distance": 37.8
+    },
+    {
+      "from": "H_C09",
+      "to": "J_CAI_04",
+      "distance": 34.13
+    },
+    {
+      "from": "H_C09",
+      "to": "J_CAI_05",
+      "distance": 12.56
+    },
+    {
+      "from": "H_C10",
+      "to": "J_CAI_04",
+      "distance": 26.64
+    },
+    {
+      "from": "H_C10",
+      "to": "J_CAI_06",
+      "distance": 16.11
+    },
+    {
+      "from": "H_C10",
+      "to": "J_CAI_07",
+      "distance": 24.77
+    },
+    {
+      "from": "H_D01",
+      "to": "H_D02",
+      "distance": 2.95
+    },
+    {
+      "from": "H_D01",
+      "to": "J_DEL_02",
+      "distance": 55.91
+    },
+    {
+      "from": "H_D01",
+      "to": "J_DEL_03",
+      "distance": 1.14
+    },
+    {
+      "from": "H_D01",
+      "to": "J_DEL_04",
+      "distance": 62.52
+    },
+    {
+      "from": "H_D02",
+      "to": "J_DEL_02",
+      "distance": 54.5
+    },
+    {
+      "from": "H_D02",
+      "to": "J_DEL_03",
+      "distance": 1.81
+    },
+    {
+      "from": "H_D02",
+      "to": "J_DEL_04",
+      "distance": 64.39
+    },
+    {
+      "from": "H_D03",
+      "to": "J_DEL_01",
+      "distance": 40.79
+    },
+    {
+      "from": "H_D03",
+      "to": "J_DEL_03",
+      "distance": 63.19
+    },
+    {
+      "from": "H_D03",
+      "to": "J_DEL_04",
+      "distance": 0.2
+    },
+    {
+      "from": "H_D04",
+      "to": "J_DEL_01",
+      "distance": 48.33
+    },
+    {
+      "from": "H_D04",
+      "to": "J_DEL_02",
+      "distance": 0.27
+    },
+    {
+      "from": "H_D04",
+      "to": "J_DEL_03",
+      "distance": 55.15
+    },
+    {
+      "from": "H_D05",
+      "to": "J_ALX_01",
+      "distance": 68.1
+    },
+    {
+      "from": "H_D05",
+      "to": "J_DEL_02",
+      "distance": 70.53
+    },
+    {
+      "from": "H_D05",
+      "to": "J_DEL_05",
+      "distance": 0.43
+    },
+    {
+      "from": "H_D06",
+      "to": "H_D07",
+      "distance": 23.01
+    },
+    {
+      "from": "H_D06",
+      "to": "J_DEL_01",
+      "distance": 23.02
+    },
+    {
+      "from": "H_D06",
+      "to": "J_DEL_02",
+      "distance": 30.56
+    },
+    {
+      "from": "H_D06",
+      "to": "J_DEL_04",
+      "distance": 57.35
+    },
+    {
+      "from": "H_D07",
+      "to": "J_DEL_01",
+      "distance": 0.45
+    },
+    {
+      "from": "H_D07",
+      "to": "J_DEL_02",
+      "distance": 48.05
+    },
+    {
+      "from": "H_D07",
+      "to": "J_DEL_04",
+      "distance": 40.25
+    },
+    {
+      "from": "H_D08",
+      "to": "H_S08",
+      "distance": 34.42
+    },
+    {
+      "from": "H_D08",
+      "to": "J_CAN_01",
+      "distance": 0.94
+    },
+    {
+      "from": "H_D08",
+      "to": "J_SIN_05",
+      "distance": 71.72
+    },
+    {
+      "from": "H_D08",
+      "to": "J_SIN_06",
+      "distance": 34.45
+    },
+    {
+      "from": "H_D08",
+      "to": "J_SIN_08",
+      "distance": 82.49
+    },
+    {
+      "from": "H_D09",
+      "to": "H_D10",
+      "distance": 3.47
+    },
+    {
+      "from": "H_D09",
+      "to": "J_CAN_02",
+      "distance": 4.05
+    },
+    {
+      "from": "H_D09",
+      "to": "J_SIN_05",
+      "distance": 54.11
+    },
+    {
+      "from": "H_D09",
+      "to": "J_SIN_06",
+      "distance": 55.73
+    },
+    {
+      "from": "H_D10",
+      "to": "J_CAN_02",
+      "distance": 3.07
+    },
+    {
+      "from": "H_D10",
+      "to": "J_SIN_05",
+      "distance": 50.62
+    },
+    {
+      "from": "H_D10",
+      "to": "J_SIN_06",
+      "distance": 52.77
+    },
+    {
+      "from": "H_P01",
+      "to": "H_P03",
+      "distance": 100.8
+    },
+    {
+      "from": "H_P01",
+      "to": "J_UPP_01",
+      "distance": 191.2
+    },
+    {
+      "from": "H_P01",
+      "to": "J_UPP_02",
+      "distance": 0.63
+    },
+    {
+      "from": "H_P01",
+      "to": "J_UPP_03",
+      "distance": 249.07
+    },
+    {
+      "from": "H_P02",
+      "to": "J_CAI_06",
+      "distance": 258.97
+    },
+    {
+      "from": "H_P02",
+      "to": "J_UPP_01",
+      "distance": 58.43
+    },
+    {
+      "from": "H_P02",
+      "to": "J_UPP_02",
+      "distance": 136.33
+    },
+    {
+      "from": "H_P03",
+      "to": "J_UPP_01",
+      "distance": 289.87
+    },
+    {
+      "from": "H_P03",
+      "to": "J_UPP_02",
+      "distance": 104.44
+    },
+    {
+      "from": "H_P03",
+      "to": "J_UPP_03",
+      "distance": 147.92
+    },
+    {
+      "from": "H_P04",
+      "to": "J_UPP_01",
+      "distance": 397.16
+    },
+    {
+      "from": "H_P04",
+      "to": "J_UPP_02",
+      "distance": 231.78
+    },
+    {
+      "from": "H_P04",
+      "to": "J_UPP_03",
+      "distance": 31.13
+    },
+    {
+      "from": "H_P05",
+      "to": "J_UPP_01",
+      "distance": 655.93
+    },
+    {
+      "from": "H_P05",
+      "to": "J_UPP_02",
+      "distance": 468.98
+    },
+    {
+      "from": "H_P05",
+      "to": "J_UPP_03",
+      "distance": 249.98
+    },
+    {
+      "from": "H_S00",
+      "to": "J_SIN_03",
+      "distance": 42.13
+    },
+    {
+      "from": "H_S00",
+      "to": "J_SIN_04",
+      "distance": 12.31
+    },
+    {
+      "from": "H_S00",
+      "to": "J_SIN_05",
+      "distance": 1.85
+    },
+    {
+      "from": "H_S01",
+      "to": "H_S03",
+      "distance": 35.22
+    },
+    {
+      "from": "H_S01",
+      "to": "J_SIN_01",
+      "distance": 1.03
+    },
+    {
+      "from": "H_S01",
+      "to": "J_SIN_02",
+      "distance": 4.29
+    },
+    {
+      "from": "H_S01",
+      "to": "J_SIN_07",
+      "distance": 78.41
+    },
+    {
+      "from": "H_S02",
+      "to": "H_S07",
+      "distance": 29.24
+    },
+    {
+      "from": "H_S02",
+      "to": "J_SIN_03",
+      "distance": 0.9
+    },
+    {
+      "from": "H_S02",
+      "to": "J_SIN_04",
+      "distance": 30.93
+    },
+    {
+      "from": "H_S02",
+      "to": "J_SIN_05",
+      "distance": 41.88
+    },
+    {
+      "from": "H_S03",
+      "to": "J_SIN_01",
+      "distance": 37.45
+    },
+    {
+      "from": "H_S03",
+      "to": "J_SIN_02",
+      "distance": 40.68
+    },
+    {
+      "from": "H_S03",
+      "to": "J_SIN_07",
+      "distance": 97.38
+    },
+    {
+      "from": "H_S04",
+      "to": "H_S05",
+      "distance": 24.22
+    },
+    {
+      "from": "H_S04",
+      "to": "J_SIN_01",
+      "distance": 65.89
+    },
+    {
+      "from": "H_S04",
+      "to": "J_SIN_02",
+      "distance": 64.52
+    },
+    {
+      "from": "H_S04",
+      "to": "J_SIN_07",
+      "distance": 11.77
+    },
+    {
+      "from": "H_S05",
+      "to": "J_SIN_01",
+      "distance": 90.16
+    },
+    {
+      "from": "H_S05",
+      "to": "J_SIN_02",
+      "distance": 89.01
+    },
+    {
+      "from": "H_S05",
+      "to": "J_SIN_07",
+      "distance": 12.51
+    },
+    {
+      "from": "H_S06",
+      "to": "J_SIN_07",
+      "distance": 315.33
+    },
+    {
+      "from": "H_S06",
+      "to": "J_SIN_08",
+      "distance": 262.91
+    },
+    {
+      "from": "H_S06",
+      "to": "J_UPP_02",
+      "distance": 324.83
+    },
+    {
+      "from": "H_S07",
+      "to": "J_SIN_03",
+      "distance": 28.34
+    },
+    {
+      "from": "H_S07",
+      "to": "J_SIN_04",
+      "distance": 0.78
+    },
+    {
+      "from": "H_S07",
+      "to": "J_SIN_05",
+      "distance": 11.33
+    },
+    {
+      "from": "H_S08",
+      "to": "J_CAN_01",
+      "distance": 35.33
+    },
+    {
+      "from": "H_S08",
+      "to": "J_SIN_05",
+      "distance": 43.29
+    },
+    {
+      "from": "H_S08",
+      "to": "J_SIN_06",
+      "distance": 0.87
+    },
+    {
+      "from": "J_ALX_01",
+      "to": "J_ALX_02",
+      "distance": 17.28
+    },
+    {
+      "from": "J_ALX_01",
+      "to": "J_DEL_02",
+      "distance": 138.17
+    },
+    {
+      "from": "J_ALX_01",
+      "to": "J_DEL_05",
+      "distance": 67.86
+    },
+    {
+      "from": "J_ALX_02",
+      "to": "J_CAI_05",
+      "distance": 195.81
+    },
+    {
+      "from": "J_ALX_02",
+      "to": "J_DEL_02",
+      "distance": 147.07
+    },
+    {
+      "from": "J_ALX_02",
+      "to": "J_DEL_05",
+      "distance": 74.79
+    },
+    {
+      "from": "J_CAI_01",
+      "to": "J_CAI_02",
+      "distance": 2.57
+    },
+    {
+      "from": "J_CAI_01",
+      "to": "J_CAI_03",
+      "distance": 6.49
+    },
+    {
+      "from": "J_CAI_01",
+      "to": "J_CAI_04",
+      "distance": 4.52
+    },
+    {
+      "from": "J_CAI_01",
+      "to": "J_CAI_05",
+      "distance": 26.1
+    },
+    {
+      "from": "J_CAI_01",
+      "to": "J_CAI_06",
+      "distance": 11.5
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_CAI_03",
+      "distance": 4.33
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_CAI_04",
+      "distance": 7.44
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_CAI_05",
+      "distance": 27.72
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_CAI_06",
+      "distance": 13.97
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_CAI_07",
+      "distance": 16.34
+    },
+    {
+      "from": "J_CAI_02",
+      "to": "J_DEL_01",
+      "distance": 52.6
+    },
+    {
+      "from": "J_CAI_03",
+      "to": "J_CAI_04",
+      "distance": 10.93
+    },
+    {
+      "from": "J_CAI_03",
+      "to": "J_CAI_07",
+      "distance": 11.68
+    },
+    {
+      "from": "J_CAI_04",
+      "to": "J_CAI_05",
+      "distance": 22.02
+    },
+    {
+      "from": "J_CAI_04",
+      "to": "J_CAI_06",
+      "distance": 10.07
+    },
+    {
+      "from": "J_CAI_05",
+      "to": "J_UPP_01",
+      "distance": 201.02
+    },
+    {
+      "from": "J_CAI_06",
+      "to": "J_CAI_07",
+      "distance": 15.24
+    },
+    {
+      "from": "J_CAI_06",
+      "to": "J_UPP_01",
+      "distance": 189.19
+    },
+    {
+      "from": "J_CAI_06",
+      "to": "J_UPP_02",
+      "distance": 377.27
+    },
+    {
+      "from": "J_CAI_07",
+      "to": "J_CAN_01",
+      "distance": 122.61
+    },
+    {
+      "from": "J_CAI_07",
+      "to": "J_SIN_08",
+      "distance": 133.45
+    },
+    {
+      "from": "J_CAN_01",
+      "to": "J_DEL_04",
+      "distance": 85.28
+    },
+    {
+      "from": "J_CAN_01",
+      "to": "J_SIN_04",
+      "distance": 80.7
+    },
+    {
+      "from": "J_CAN_01",
+      "to": "J_SIN_05",
+      "distance": 72.67
+    },
+    {
+      "from": "J_CAN_01",
+      "to": "J_SIN_06",
+      "distance": 34.76
+    },
+    {
+      "from": "J_CAN_01",
+      "to": "J_SIN_08",
+      "distance": 80.5
+    },
+    {
+      "from": "J_CAN_02",
+      "to": "J_DEL_03",
+      "distance": 105.17
+    },
+    {
+      "from": "J_CAN_02",
+      "to": "J_SIN_04",
+      "distance": 60.85
+    },
+    {
+      "from": "J_CAN_02",
+      "to": "J_SIN_05",
+      "distance": 52.21
+    },
+    {
+      "from": "J_CAN_02",
+      "to": "J_SIN_06",
+      "distance": 49.13
+    },
+    {
+      "from": "J_DEL_01",
+      "to": "J_DEL_02",
+      "distance": 45.94
+    },
+    {
+      "from": "J_DEL_01",
+      "to": "J_DEL_03",
+      "distance": 80.89
+    },
+    {
+      "from": "J_DEL_01",
+      "to": "J_DEL_04",
+      "distance": 38.63
+    },
+    {
+      "from": "J_DEL_02",
+      "to": "J_DEL_03",
+      "distance": 52.69
+    },
+    {
+      "from": "J_DEL_02",
+      "to": "J_DEL_04",
+      "distance": 64.43
+    },
+    {
+      "from": "J_DEL_02",
+      "to": "J_DEL_05",
+      "distance": 67.22
+    },
+    {
+      "from": "J_DEL_03",
+      "to": "J_DEL_04",
+      "distance": 63.29
+    },
+    {
+      "from": "J_SIN_01",
+      "to": "J_SIN_02",
+      "distance": 3.07
+    },
+    {
+      "from": "J_SIN_01",
+      "to": "J_SIN_03",
+      "distance": 93.22
+    },
+    {
+      "from": "J_SIN_01",
+      "to": "J_SIN_07",
+      "distance": 73.98
+    },
+    {
+      "from": "J_SIN_02",
+      "to": "J_SIN_03",
+      "distance": 85.63
+    },
+    {
+      "from": "J_SIN_02",
+      "to": "J_SIN_07",
+      "distance": 76.53
+    },
+    {
+      "from": "J_SIN_03",
+      "to": "J_SIN_04",
+      "distance": 28.52
+    },
+    {
+      "from": "J_SIN_03",
+      "to": "J_SIN_05",
+      "distance": 40.95
+    },
+    {
+      "from": "J_SIN_03",
+      "to": "J_SIN_06",
+      "distance": 82.7
+    },
+    {
+      "from": "J_SIN_03",
+      "to": "J_SIN_07",
+      "distance": 107.2
+    },
+    {
+      "from": "J_SIN_04",
+      "to": "J_SIN_05",
+      "distance": 10.44
+    },
+    {
+      "from": "J_SIN_04",
+      "to": "J_SIN_06",
+      "distance": 54.25
+    },
+    {
+      "from": "J_SIN_05",
+      "to": "J_SIN_06",
+      "distance": 41.8
+    },
+    {
+      "from": "J_SIN_05",
+      "to": "J_SIN_08",
+      "distance": 133.7
+    },
+    {
+      "from": "J_SIN_06",
+      "to": "J_SIN_08",
+      "distance": 116.33
+    },
+    {
+      "from": "J_SIN_07",
+      "to": "J_SIN_08",
+      "distance": 148.93
+    },
+    {
+      "from": "J_SIN_08",
+      "to": "J_UPP_03",
+      "distance": 557.02
+    },
+    {
+      "from": "J_UPP_01",
+      "to": "J_UPP_02",
+      "distance": 181.37
+    },
+    {
+      "from": "J_UPP_01",
+      "to": "J_UPP_03",
+      "distance": 421.44
+    },
+    {
+      "from": "J_UPP_02",
+      "to": "J_UPP_03",
+      "distance": 236.92
+    }
+  ]
+}
