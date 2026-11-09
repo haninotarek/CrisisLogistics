@@ -26,7 +26,7 @@ export default function Sidebar({
       {/* Desktop Right RTL Sidebar */}
       <aside className="figma-sidebar">
         <div className="brand-box">
-          <div className="brand-logo">🚑</div>
+          <div className="brand-logo"><Ambulance size={20} /></div>
           <div>
             <div className="brand-title">الحقني</div>
             <div className="brand-subtitle">إدارة الطوارئ والإمداد الطبي</div>
@@ -90,7 +90,7 @@ export default function Sidebar({
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
             <div className="brand-logo" style={{ width: 32, height: 32, fontSize: 15 }}>
-              🚑
+              <Ambulance size={17} />
             </div>
             <div>
               <div style={{ fontWeight: 800, fontSize: 16 }}>الحقني</div>

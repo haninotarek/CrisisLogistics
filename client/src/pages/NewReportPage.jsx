@@ -195,7 +195,7 @@ export default function NewReportPage({
         <div className="card" style={{ padding: 20 }}>
           <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <div style={{ fontWeight: 800, fontSize: 15.5, borderBottom: "1px solid #e2e8f0", paddingBottom: 10 }}>
-              🩺 بيانات المصاب والفرز الطبي
+              بيانات المصاب والفرز الطبي
             </div>
 
             <div className="form-grid">
@@ -454,7 +454,7 @@ export default function NewReportPage({
                 <div className="metric-box">
                   <div className="metric-label">مصدر التصنيف</div>
                   <div className="metric-val">
-                    {submitResult.triage_source === "ai" ? "🤖 موديل الذكاء الاصطناعي" : "📋 القواعد الطبية"}
+                    {submitResult.triage_source === "ai" ? "موديل الذكاء الاصطناعي" : "القواعد الطبية"}
                   </div>
                 </div>
                 <div className="metric-box">
@@ -489,7 +489,7 @@ export default function NewReportPage({
 
               {submitResult.dispatch_error && (
                 <div style={{ fontSize: 12.5, color: "#b45309", fontWeight: 700 }}>
-                  ⚠️ ملاحظة: تم حفظ البلاغ في طابور الأولوية ({submitResult.dispatch_error})
+                  ملاحظة: تم حفظ البلاغ في طابور الأولوية ({submitResult.dispatch_error})
                 </div>
               )}
             </div>

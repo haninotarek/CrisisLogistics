@@ -10,6 +10,8 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import L from "leaflet";
+import { renderToStaticMarkup } from "react-dom/server";
+import { Hospital, Ambulance, TriangleAlert, MapPin } from "lucide-react";
 import "leaflet/dist/leaflet.css";
 
 const REGIONS = [
@@ -21,10 +23,11 @@ const REGIONS = [
   { id: "all", label: "مصر كلها", center: [29.4, 31.7], zoom: 6 },
 ];
 
-function makeBubbleIcon(emoji, cls) {
+function makeBubbleIcon(Icon, cls) {
+  const svg = renderToStaticMarkup(<Icon size={cls === "pick-pin" ? 18 : 16} strokeWidth={2.4} color="#fff" />);
   return L.divIcon({
     className: "crisis-div-icon",
-    html: `<div class="marker-bubble ${cls}"><span>${emoji}</span></div>`,
+    html: `<div class="marker-bubble ${cls}">${svg}</div>`,
     iconSize: [32, 32],
     iconAnchor: [16, 16],
     popupAnchor: [0, -16],
@@ -115,15 +118,15 @@ export default function InteractiveCrisisMap({
 
   const icons = useMemo(
     () => ({
-      hospOk: makeBubbleIcon("🏥", "hosp-ok"),
-      hospFull: makeBubbleIcon("🏥", "hosp-full"),
-      ambAvail: makeBubbleIcon("🚑", "amb-available"),
-      ambBusy: makeBubbleIcon("🚑", "amb-busy"),
-      ambOff: makeBubbleIcon("🚑", "amb-offline"),
-      repCrit: makeBubbleIcon("⚠️", "rep-critical"),
-      repMed: makeBubbleIcon("⚠️", "rep-medium"),
-      repLow: makeBubbleIcon("⚠️", "rep-low"),
-      pickPin: makeBubbleIcon("📍", "pick-pin"),
+      hospOk: makeBubbleIcon(Hospital, "hosp-ok"),
+      hospFull: makeBubbleIcon(Hospital, "hosp-full"),
+      ambAvail: makeBubbleIcon(Ambulance, "amb-available"),
+      ambBusy: makeBubbleIcon(Ambulance, "amb-busy"),
+      ambOff: makeBubbleIcon(Ambulance, "amb-offline"),
+      repCrit: makeBubbleIcon(TriangleAlert, "rep-critical"),
+      repMed: makeBubbleIcon(TriangleAlert, "rep-medium"),
+      repLow: makeBubbleIcon(TriangleAlert, "rep-low"),
+      pickPin: makeBubbleIcon(MapPin, "pick-pin"),
     }),
     []
   );
@@ -187,14 +190,14 @@ export default function InteractiveCrisisMap({
             className={`map-chip ${tileMode === "street" ? "active" : ""}`}
             onClick={() => setTileMode("street")}
           >
-            🗺️ شوارع
+            شوارع
           </button>
           <button
             type="button"
             className={`map-chip ${tileMode === "satellite" ? "active" : ""}`}
             onClick={() => setTileMode("satellite")}
           >
-            🛰️ قمر صناعي
+            قمر صناعي
           </button>
           <button
             type="button"
@@ -202,21 +205,21 @@ export default function InteractiveCrisisMap({
             onClick={() => setShowGraphEdges((v) => !v)}
             title="إظهار/إخفاء شبكة الطرق (Dijkstra Graph)"
           >
-            🕸️ الشبكة
+            الشبكة
           </button>
           <button
             type="button"
             className={`map-chip ${showHospitals ? "active" : ""}`}
             onClick={() => setShowHospitals((v) => !v)}
           >
-            🏥 المستشفيات
+            المستشفيات
           </button>
           <button
             type="button"
             className={`map-chip ${showAmbulances ? "active" : ""}`}
             onClick={() => setShowAmbulances((v) => !v)}
           >
-            🚑 الإسعافات
+            الإسعافات
           </button>
         </div>
 
@@ -231,12 +234,12 @@ export default function InteractiveCrisisMap({
           >
             {REGIONS.map((r) => (
               <option key={r.id} value={r.id}>
-                📍 {r.label}
+                {r.label}
               </option>
             ))}
           </select>
           <button type="button" className="map-chip" onClick={handleLocateMe}>
-            🎯 موقعي GPS
+            موقعي GPS
           </button>
         </div>
       </div>
@@ -315,7 +318,7 @@ export default function InteractiveCrisisMap({
               <Popup>
                 <div style={{ direction: "rtl", textAlign: "right", fontFamily: "Cairo, sans-serif", minWidth: 180 }}>
                   <div style={{ fontWeight: 800, fontSize: 13.5, marginBottom: 4 }}>
-                    🏥 {h.name}
+                    {h.name}
                   </div>
                   <div style={{ fontSize: 12, color: "#475569" }}>
                     العقدة: <b>{h.node_id}</b>
@@ -356,7 +359,7 @@ export default function InteractiveCrisisMap({
                 <Popup>
                   <div style={{ direction: "rtl", textAlign: "right", fontFamily: "Cairo, sans-serif", minWidth: 170 }}>
                     <div style={{ fontWeight: 800, fontSize: 13.5, marginBottom: 4 }}>
-                      🚑 {a.name}
+                      {a.name}
                     </div>
                     <div style={{ fontSize: 12, color: "#475569" }}>
                       العقدة: <b>{a.node_id}</b> • الحالة: <b>{statusAr}</b>
@@ -391,7 +394,7 @@ export default function InteractiveCrisisMap({
                 <Popup>
                   <div style={{ direction: "rtl", textAlign: "right", fontFamily: "Cairo, sans-serif", minWidth: 195 }}>
                     <div style={{ fontWeight: 800, fontSize: 13.5 }}>
-                      ⚠️ بلاغ #{r.id} — {r.patient_name || "مصاب"}
+                      بلاغ #{r.id} — {r.patient_name || "مصاب"}
                     </div>
                     <div style={{ fontSize: 12, color: "#475569", marginTop: 3 }}>
                       الإصابة: <b>{r.injury_type}</b> ({r.severity})
@@ -416,7 +419,7 @@ export default function InteractiveCrisisMap({
                           cursor: "pointer",
                         }}
                       >
-                        🚑 إرسال أقرب إسعاف فوراً
+                        إرسال أقرب إسعاف فوراً
                       </button>
                     )}
                   </div>
@@ -433,7 +436,7 @@ export default function InteractiveCrisisMap({
           >
             <Popup>
               <div style={{ direction: "rtl", textAlign: "right", fontFamily: "Cairo, sans-serif" }}>
-                <b>📍 موقع البلاغ المحدد</b>
+                <b>موقع البلاغ المحدد</b>
                 <div style={{ fontSize: 11.5 }}>
                   {pickedLocation.latitude}, {pickedLocation.longitude}
                 </div>
@@ -457,14 +460,14 @@ export default function InteractiveCrisisMap({
         <div className="map-route-hud">
           <div>
             <div style={{ fontWeight: 800, fontSize: 13 }}>
-              🛣️ مسار المهمة النشط (Dijkstra + Street Routing)
+              مسار المهمة النشط (Dijkstra + Street Routing)
             </div>
             <div style={{ fontSize: 11.5, color: "#cbd5e1", marginTop: 2 }}>
               {activeMissionMeta?.ambulanceName && (
-                <span>🟠 {activeMissionMeta.ambulanceName} ← المصاب &nbsp;|&nbsp; </span>
+                <span><span className="route-dot" style={{ background: "#f97316" }} />{activeMissionMeta.ambulanceName} ← المصاب &nbsp;|&nbsp; </span>
               )}
               {activeMissionMeta?.hospitalName && (
-                <span>🔵 المصاب ← {activeMissionMeta.hospitalName}</span>
+                <span><span className="route-dot" style={{ background: "#2563eb" }} />المصاب ← {activeMissionMeta.hospitalName}</span>
               )}
             </div>
           </div>

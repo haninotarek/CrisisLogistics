@@ -4,6 +4,7 @@ import DashboardPage from "./pages/DashboardPage";
 import NewReportPage from "./pages/NewReportPage";
 import AmbulancesPage from "./pages/AmbulancesPage";
 import HospitalsPage from "./pages/HospitalsPage";
+import { X } from "lucide-react";
 import {
   api,
   checkBackendConnection,
@@ -232,7 +233,7 @@ export default function App() {
                 color: "inherit",
               }}
             >
-              ✕
+              <X size={16} />
             </button>
           </div>
         )}

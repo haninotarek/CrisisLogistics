@@ -177,13 +177,13 @@ export default function DashboardPage({
         <div className="card">
           <div className="card-header">
             <div className="card-title">
-              <span>📋 قائمة البلاغات والفرز الذكي</span>
+              <span>قائمة البلاغات والفرز الذكي</span>
               <span className="badge badge-assigned">{displayedReports.length}</span>
             </div>
 
             <div className="pill-group">
               {[
-                { id: "queue", label: "🔥 طابور الأولوية" },
+                { id: "queue", label: "طابور الأولوية" },
                 { id: "all", label: "الكل" },
                 { id: "assigned", label: "قيد التنفيذ" },
                 { id: "done", label: "مكتمل" },
@@ -271,8 +271,8 @@ export default function DashboardPage({
                           <span className={`badge ${st.cls}`}>{st.text}</span>
                           {(r.ambulance_name || r.hospital_name) && (
                             <div style={{ fontSize: 11.5, color: "#475569", marginTop: 4 }}>
-                              {r.ambulance_name && <div>🚑 {r.ambulance_name}</div>}
-                              {r.hospital_name && <div>🏥 {r.hospital_name}</div>}
+                              {r.ambulance_name && <div>إسعاف: {r.ambulance_name}</div>}
+                              {r.hospital_name && <div>مستشفى: {r.hospital_name}</div>}
                             </div>
                           )}
                         </td>
@@ -346,7 +346,7 @@ export default function DashboardPage({
         <div className="card">
           <div className="card-header">
             <div className="card-title">
-              <span>🗺️ الخريطة التفاعلية الحية</span>
+              <span>الخريطة التفاعلية الحية</span>
               <span style={{ fontSize: 11.5, fontWeight: 600, color: "#64748b" }}>
                 (إسعافات • مستشفيات • مسارات Dijkstra)
               </span>

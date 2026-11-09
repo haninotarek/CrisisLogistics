@@ -216,7 +216,7 @@ export default function AmbulancesPage({
         <div className="modal-backdrop" onClick={() => setShowModal(false)}>
           <div className="modal-card" onClick={(e) => e.stopPropagation()}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <h3 style={{ fontSize: 17, fontWeight: 800 }}>🚑 إضافة سيارة إسعاف جديدة</h3>
+              <h3 style={{ fontSize: 17, fontWeight: 800 }}>إضافة سيارة إسعاف جديدة</h3>
               <button
                 type="button"
                 className="btn btn-xs btn-outline"
