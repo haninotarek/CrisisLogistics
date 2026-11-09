@@ -37,7 +37,11 @@ violates is skipped with a NOTICE, never fails), adds indexes. It is idempotent.
 `npm run db:seed` (`db/seed.js`) imports the team's road network `data/graph.json` into the DB:
 all nodes + edges (re-runnable), and — only if those tables are empty — hospitals
 (`type: "hospital"`, `total_beds = available_beds = capacity`) and ambulances (`type: "ambulance"`).
-`npm run db:setup` = both.
+`npm run db:demo` (`db/seed.sql`, Database / Kaju) adds the demo state on top of that: current free beds
+per hospital and 10 sample reports (one of them assigned, so its ambulance becomes busy). It clears
+`reports` first, so it is safe to re-run. Roads are stored once; Dijkstra treats every road as two-way.
+
+`npm run db:setup` = all three, in order: `db:init`, `db:seed`, `db:demo`.
 
 ## 2. Architecture
 
